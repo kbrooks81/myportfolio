@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="'UTF-8">
+        <meta name="'viewpoit" content="width=device-width, initial-scale=1.0">
+        <title>Budget App Info</title>
+
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+
+        <!--  I can update font here if needed-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/portfolio_item.css">
+
+        <script src="https://kit.fontawesome.com/1bd2d0e425.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/devthekrisbrooks1.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="index.html#resume" class="nav__link">My Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introdcution -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                freecodecamp<strong>Budget App</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Scientific Computing with Python</p>
+            <img src="images/budget_app.jpg" alt="budget app" class="intro__img">
+        </section>
+
+
+        <div class="portfolio-item-individual">
+            <p>This project is the 3rd of 5 projects featured in the scientific computing with python certification section of
+                freecodecamp. 
+            </p>
+            <img src="images/budget_app_info.PNG" alt="budget app info" class="info__img">
+            <p>In order to successfully complete this project, you must finish the Category class in budget.py. It should be able to instantiate objects 
+                based on different budget categories like food, clothing, and entertainment. When objects are created, they are passed in the name 
+                of the category. The class should have an instance variable called ledger that is a list. The class should also contain the 
+                following methods:
+                <li>
+                    A <strong>deposit</strong> method that accepts an amount and description. If no description is given, it should default to an empty string. 
+                    The method should append an object to the ledger list in the form of {"amount": amount, "description": description}.
+                </li>
+                <li>
+                    A <strong>withdraw</strong> method that is similar to the deposit method, but the amount passed in should be stored in the ledger as a negative number. If there are
+                    not enough funds, nothing should be added to the ledger. This method should return <strong>True</strong> if the withdrawal took place, and <strong>False</strong> otherwise.
+                </li>
+                <li>
+                    A <strong>get_balance</strong> method that returns the current balance of the budget category based on the deposits and withdrawals that have occurred.
+                </li>
+                <li>
+                    A <strong>transfer</strong> method that accepts an amount and another budget category as arguments. The method should add a withdrawal with the 
+                    amount and the description "Transfer to [Destination Budget Category]". The method should then add a deposit to the other budget 
+                    category with the amount and the description "Transfer from [Source Budget Category]". If there are not enough funds,
+                    nothing should be added to either ledgers. This method should return <strong>True</strong> if the transfer took place, and <strong>False</strong> otherwise.
+                <li>
+                    A <strong>check_funds</strong> method that accepts an amount as an argument. It returns <strong>False</strong> if the amount is greater than the balance of the budget
+                    category and returns <strong>True</strong> otherwise. This method should be used by both the withdraw method and transfer method.
+                </li>
+            </p>
+            <p>When the budget object is printed it should display:
+                <li>
+                    A title line of 30 characters where the name of the category is centered in a line of * characters.
+                </li>
+                <li>
+                    A list of the items in the ledger. Each line should show the description and amount. The first 23 characters of the description should be displayed, then the amount. 
+                    The amount should be right aligned, contain two decimal places, and display a maximum of 7 characters.
+                </li>
+                <li>
+                    A line displaying the category total.
+                </li>
+            </p> 
+            <p>
+                Besides the Category class, create a function (outside of the class) called <strong>create_spend_chart</strong> that takes a list of categories as an argument. It should return a string that is a bar chart.
+                The chart should show the percentage spent in each category passed in to the function. The percentage spent should be calculated only with withdrawals and not with deposits. Down the left 
+                side of the chart should be labels 0 - 100. The "bars" in the bar chart should be made out of the "o" character. The height of each bar should be rounded down to the nearest 10. The horizontal 
+                line below the bars should go two spaces past the final bar. Each category name should be written vertically below the bar. There should be a title at the top that says "Percentage spent by category".
+            </p>
+            <p>You can access my code: <a href="https://replit.com/@kbrooks81/budget-app#main.py" class="project__source-link"> here</a></p>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href='mailto:kbrooks8193@gmail.com' class="footer__link">kbrooks8193@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/kris-brooks/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/kbrooks81">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://replit.com/@kbrooks81">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/Kbrooks81">
+                        <i class="fa-brands fa-codepen"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevTheKrisBrooks Portfolio Website</title>
+
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+
+        <!--  I can update font here if needed-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://kit.fontawesome.com/1bd2d0e425.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/devthekrisbrooks1.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#resume" class="nav__link">My Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introdcution -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Kris Brooks</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Eng & Dev</p>
+            <img src="images/myheadshot.png" alt="a picture of Kris Brooks" class="intro__img">
+        </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Software Engineering</h3>
+                    <p>
+                        On the road to obtaining my Bachelors of Science in Information Technology, I intentionally chose
+                        to specialize in the dynamic field of software engineering. This decision has been instrumental in not
+                        only sharpening my critical thinking abilities but also fostering growth across a wide spectrum of 
+                        information technology domains. I have aquired invaluable experience in diverse areas including 
+                        project management, network management, software security, web development, and a variety of 
+                        software development methodologies such as Agile and SDLC.
+                    </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Software Development</h3>
+                    <p>
+                        Starting this fall, I am embarking on a thrilling new phase in my educational journey as I passionately pursue my Masters of Science in Information Technology, 
+                        specializing in software design & development. This opportunity fills me with immense excitement as it enables me to fortify my existing knowledge and further 
+                        refine my expertise in software development. With a solid foundation already established, I am eager to delve deeper 
+                        into the intricacies of this field, exploring innovative concepts and cutting-edge techniques.
+
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Continuous Learning</h3>
+                    <p>
+                        I am a firm advocate of continuous learning, particularly within the dynamic software industry. 
+                        Technological advancements and transformations are ubiquitous, and the ability to constantly acquire
+                        new knowledge and adapt is paramount to one's success. In this ever-evolving field, there is an 
+                        abundance of information available, offering endless opportunities to enhance your skillset. 
+                        Engaging in the process of continuous learning not only equips you with the latest tools and 
+                        techniques but also facilitates personal growth and professional development.
+                    </p>                
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class="btn">My Work Samples</a>
+        </section>
+
+
+        <!--  About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">MSIT | Software Design & Development </p>
+
+            <div class="about-me__body">
+                <p>I am a recent graduate and current grad student of Middle Georgia State University. As far as my educational qualifications are concerend, I have 
+                    two associate level degrees from Georgia Military College, one in business administration and another in computer science. I recently completed
+                    my undergratuate degree with a primary focus in software engineering. My plan is to obtain additional work experience in the software industry while
+                    working to complete my graduate program by the summer of 2024.</p>
+                <p>I have 7 years of work experience in the insurance industry and 2 years of experience perfecting my software development skillset. I currently hold a seat
+                    on the executive board as the Publicity Chair and Co-IT Coordinator of the Middle Georiga State Univeristy chapter of the National Society
+                    of Leadership and Success.
+                </p>
+            </div>
+
+            <img src="images/aboutmepictest.PNG" alt="picture of me" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">The Showcase of My Portfolio</p>
+
+            <!-- Portfolio item 01 -->
+            <div class="portfolio">
+                <a href="arithmetic_formatter_info.html" class="portfolio__item">
+                    <img src="images/arithmetic_format.jpg" alt="Arithmetic Formatter" class="portfolio__img">
+                    <h3>Arithmetic Formatter</h3>
+                </a>     
+            
+
+            <!-- Portfolio item 02 -->
+            
+                <a href="time_calculator_info.html" class="portfolio__item">
+                    <img src="images/time_cal.jpg" alt="Time Calculator" class="portfolio__img">
+                    <h3>Time Calculator</h3>
+                </a>
+            
+
+            <!-- Portfolio item 03 -->
+            
+                <a href="budget_app_info.html" class="portfolio__item">
+                    <img src="images/budget_app.jpg" alt="Budget App" class="portfolio__img">
+                    <h3>Budget App</h3>
+                </a>          
+
+            <!-- Portfolio item 04 -->
+
+                <a href="survey_form_info.html" class="portfolio__item">
+                    <img src="images/GaGa's_Goodies_test.PNG" alt="GaGa's Goodies Survey Form" class="portfolio__img">
+                    <h3>Survey Form</h3>
+                </a>
+        
+            <!-- Portfolio item 05 -->
+            
+                <a href="tribute_page_info.html" class="portfolio__item">
+                    <img src="images/Deep_Souths_Oldest_Rivalry_test.PNG" alt="Deep Souths Oldest Rivalry Tribute Page" class="portfolio__img">
+                    <h3>Tribute Page</h3>
+                </a>
+
+            <!-- Portfolio item 06 -->
+            
+                <a href="course_registration_system_info.html" class="portfolio__item">
+                    <img src="images/CRS_1.PNG" alt="Course Registration System" class="portfolio__img">
+                    <h3>Course Registration System</h3>
+                </a>
+
+            <!-- Portfolio item 07 -->
+            
+                <a href="tdd_info.html" class="portfolio__item">
+                    <img src="images/TDD_1.PNG" alt="Test Driven Development" class="portfolio__img">
+                    <h3>Test Driven Development</h3>
+                </a>
+                
+            </div>         
+        </section>
+
+        <!-- My Resume -->
+
+        <section class="my-resume" id="resume">
+            <h2 class="section__title section__title--resume">My Resume</h2>
+            <div class="resume">
+                <embed src="Kristopher_Brooks_Resume.pdf" type="application/pdf" width="1500px" height="1000px" />
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href='mailto:kbrooks8193@gmail.com' class="footer__link">kbrooks8193@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/kris-brooks/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/kbrooks81">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://replit.com/@kbrooks81">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/Kbrooks81">
+                        <i class="fa-brands fa-codepen"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
