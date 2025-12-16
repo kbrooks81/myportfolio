@@ -22,9 +22,11 @@
 
     <body>
         <header>
-            <div class="logo">
-                <img src="images/devthekrisbrooks1.png" alt="">
-            </div>
+            <a href="#home">
+                <div class="logo">
+                    <img src="images/devthekrisbrooks1.png" alt="">
+                </div>
+            </a>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
@@ -33,7 +35,7 @@
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
                     <li class="nav__item"><a href="#resume" class="nav__link">My Resume</a></li>
                 </ul>
             </nav>
@@ -113,61 +115,41 @@
 
         <!-- My Work -->
         <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My Work</h2>
-            <p class="section__subtitle section__subtitle--work">The Showcase of My Portfolio</p>
+            <h2 class="section__title section__title--work">Projects</h2>
+            <p class="section__subtitle section__subtitle--work">
+                Selected work across React Native, Power BI analytics, and web development.
+            </p>
 
-            <!-- Portfolio item 01 -->
-            <div class="portfolio">
-                <a href="arithmetic_formatter_info.html" class="portfolio__item">
-                    <img src="images/arithmetic_format.jpg" alt="Arithmetic Formatter" class="portfolio__img">
-                    <h3>Arithmetic Formatter</h3>
-                </a>     
-            
+            <!-- Featured -->
+            <h3 class="projects__heading">Featured</h3>
+            <div class="projects__featured portfolio" id="featuredProjects">
+                <!-- Rendered by js/projects.js -->
+            </div>
 
-            <!-- Portfolio item 02 -->
-            
-                <a href="time_calculator_info.html" class="portfolio__item">
-                    <img src="images/time_cal.jpg" alt="Time Calculator" class="portfolio__img">
-                    <h3>Time Calculator</h3>
-                </a>
-            
+            <!-- Filters -->
+            <div class="projects__filters" aria-label="Project filters">
+                <button class="projects__filter is-active" type="button" data-filter="all">All</button>
+                <button class="projects__filter" type="button" data-filter="react-native">React Native</button>
+                <button class="projects__filter" type="button" data-filter="power-bi">Power BI</button>
+                <button class="projects__filter" type="button" data-filter="web">Web</button>
+                <button class="projects__filter" type="button" data-filter="other">Other</button>
+            </div>
 
-            <!-- Portfolio item 03 -->
-            
-                <a href="budget_app_info.html" class="portfolio__item">
-                    <img src="images/budget_app.jpg" alt="Budget App" class="portfolio__img">
-                    <h3>Budget App</h3>
-                </a>          
+            <!-- All Projects -->
+            <h3 class="projects__heading">All Projects</h3>
+            <div class="projects__grid portfolio" id="projectsGrid">
+                <!-- Rendered by js/projects.js -->
+            </div>
 
-            <!-- Portfolio item 04 -->
-
-                <a href="survey_form_info.html" class="portfolio__item">
-                    <img src="images/GaGa's_Goodies_test.PNG" alt="GaGa's Goodies Survey Form" class="portfolio__img">
-                    <h3>Survey Form</h3>
-                </a>
-        
-            <!-- Portfolio item 05 -->
-            
-                <a href="tribute_page_info.html" class="portfolio__item">
-                    <img src="images/Deep_Souths_Oldest_Rivalry_test.PNG" alt="Deep Souths Oldest Rivalry Tribute Page" class="portfolio__img">
-                    <h3>Tribute Page</h3>
-                </a>
-
-            <!-- Portfolio item 06 -->
-            
-                <a href="course_registration_system_info.html" class="portfolio__item">
-                    <img src="images/CRS_1.PNG" alt="Course Registration System" class="portfolio__img">
-                    <h3>Course Registration System</h3>
-                </a>
-
-            <!-- Portfolio item 07 -->
-            
-                <a href="tdd_info.html" class="portfolio__item">
-                    <img src="images/TDD_1.PNG" alt="Test Driven Development" class="portfolio__img">
-                    <h3>Test Driven Development</h3>
-                </a>
-                
-            </div>         
+            <!-- How I build -->
+            <div class="projects__how">
+                <h3 class="projects__heading">How I build</h3>
+                <ul class="projects__how-list">
+                    <li>I ship working demos first.</li>
+                    <li>I document tradeoffs + decisions.</li>
+                    <li>I iterate with feedback and measurable improvements.</li>
+                </ul>
+            </div>
         </section>
 
         <!-- My Resume -->
@@ -214,6 +196,7 @@
         </footer>
 
         <script src="js/index.js"></script>
+        <script src="js/projects.js"></script>
 
     </body>
 </html>

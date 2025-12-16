@@ -452,6 +452,110 @@ header {
     padding: .6em;
 }
 
+/* Projects (upgraded "My Work" section) */
+
+.projects__heading {
+    margin: 1.5em 0 .75em;
+    font-size: var(--fs-h3);
+}
+
+.projects__filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .75em;
+    margin: 1.25em 0 0.75em;
+}
+
+.projects__filter {
+    border: 2px solid var(--clr-light);
+    background: transparent;
+    color: var(--clr-light);
+    padding: .55em 1.1em;
+    border-radius: 999px;
+    cursor: pointer;
+    font-family: var(--ff-secondary);
+    letter-spacing: 1px;
+    transition: transform 150ms ease-in-out, background-color 150ms ease-in-out;
+}
+
+.projects__filter:hover {
+    transform: translateY(-2px);
+}
+
+.projects__filter.is-active {
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    border-color: var(--clr-accent);
+}
+
+.projects__card {
+    padding: 10px;
+}
+
+.projects__img {
+    border-radius: 2em; /* slightly less round than existing 3em */
+}
+
+.projects__impact {
+    margin: .5em auto .75em;
+    max-width: 42ch;
+    color: var(--clr-light);
+    opacity: .9;
+}
+
+.projects__chips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5em;
+    margin: 0 0 .75em;
+}
+
+.projects__chip {
+    display: inline-block;
+    border: 1px solid rgba(245, 243, 245, 0.6);
+    border-radius: 999px;
+    padding: .25em .7em;
+    font-size: .85rem;
+    color: var(--clr-light);
+    opacity: .95;
+}
+
+.projects__links {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-bottom: .75em;
+}
+
+.projects__links a {
+    color: var(--clr-light);
+    text-decoration: none;
+    border-bottom: 2px solid rgba(245, 243, 245, 0.35);
+    padding-bottom: 2px;
+    font-weight: var(--fw-bold);
+}
+
+.projects__links a:hover {
+    border-bottom-color: var(--clr-accent);
+}
+
+.projects__how {
+    margin-top: 2em;
+    border-top: 1px solid rgba(245, 243, 245, 0.25);
+    padding-top: 1.25em;
+}
+
+.projects__how-list {
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    padding-left: 1.25em;
+    line-height: 1.8;
+}
+
 
 
 

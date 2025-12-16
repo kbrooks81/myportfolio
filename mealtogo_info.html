@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MealToGo | Case Study</title>
+
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/portfolio_item.css">
+
+    <script src="https://kit.fontawesome.com/1bd2d0e425.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/devthekrisbrooks1.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="index.html#resume" class="nav__link">My Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        React Native<strong>MealToGo</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Search + Maps restaurant discovery</p>
+      <img src="images/devthekrisbrooks1.png" alt="MealToGo" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        <strong>Summary:</strong> MealToGo is a React Native app focused on fast restaurant discovery.
+        It combines city-based search with a map-first experience so users can explore options quickly.
+      </p>
+
+      <p>
+        <strong>At a glance</strong>
+        <ul>
+          <li><strong>Tech:</strong> Expo, TypeScript, Context API, Maps, Places</li>
+          <li><strong>Role:</strong> Solo developer</li>
+          <li><strong>Repo:</strong> <a class="project__source-link" href="https://github.com/kbrooks81" target="_blank" rel="noopener">GitHub</a></li>
+          <li><strong>Demo:</strong> <a class="project__source-link" href="https://github.com/kbrooks81" target="_blank" rel="noopener">Link</a></li>
+        </ul>
+      </p>
+
+      <p>
+        <strong>Problem</strong><br />
+        Finding a place to eat in a new area can be slow when apps bury important details.
+        I wanted a lightweight flow: search a city, see the map view, then drill into a restaurant quickly.
+      </p>
+
+      <p>
+        <strong>Solution</strong><br />
+        A simple, responsive UI that supports: city search, map zoom to the selected city, and restaurant selection
+        with quick context (name, rating, open/closed, etc.).
+      </p>
+
+      <p>
+        <strong>Key features</strong>
+        <ul>
+          <li>City search + location-based map zoom</li>
+          <li>Restaurant selection updates map + details cleanly</li>
+          <li>State invalidation when changing cities to avoid stale selections</li>
+        </ul>
+      </p>
+
+      <p>
+        <strong>Challenges + tradeoffs</strong>
+        <ul>
+          <li>Keeping map state and selected restaurant state in sync across tab navigation</li>
+          <li>Balancing responsiveness with API calls and caching strategies</li>
+        </ul>
+      </p>
+
+      <p>
+        <strong>Next improvements</strong>
+        <ul>
+          <li>Authentication + profile type settings</li>
+          <li>Favorites + offline-friendly caching</li>
+          <li>Performance optimizations for markers and lists</li>
+        </ul>
+      </p>
+    </div>
+
+    <footer class="footer">
+      <a href='mailto:kbrooks8193@gmail.com' class="footer__link">kbrooks8193@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/kris-brooks/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/kbrooks81">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://replit.com/@kbrooks81">
+            <i class="fas fa-code"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/Kbrooks81">
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
