@@ -47,7 +47,7 @@
       thumbnail: "images/TDD_1.PNG",
       repoUrl: "https://github.com/kbrooks81/ITEC4365_FP_krisbrooks",
       caseStudyUrl: "tdd_info.html",
-      demoUrl: "tdd_info.html"
+      demoUrl: ""
     }
   ];
 
