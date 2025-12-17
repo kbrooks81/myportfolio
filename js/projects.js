@@ -15,7 +15,7 @@
       demoUrl: ""
     },
     {
-      title: "Power BI Dashboard",
+      title: "e2875 Dashboard",
       category: "power-bi",
       featured: true,
       impact: "Interactive operational dashboard with a modeled dataset and DAX measures.",
@@ -66,6 +66,18 @@
 
   function card(p) {
     const chips = (p.tech || []).slice(0, 6).map(t => `<span class="projects__chip">${esc(t)}</span>`).join("");
+    const repoLink = p.repoUrl
+      ? `<a href="${esc(p.repoUrl)}" target="_blank" rel="noopener">Repo</a>`
+      : "";
+
+    const caseStudyLink = p.caseStudyUrl
+      ? `<a href="${esc(p.caseStudyUrl)}">Case Study</a>`
+      : "";
+
+    const demoLink = p.demoUrl
+      ? `<a href="${esc(p.demoUrl)}" target="_blank" rel="noopener">Demo</a>`
+      : "";
+
     return `
       <div class="projects__card" data-category="${esc(p.category)}">
         <a href="${esc(p.caseStudyUrl)}" class="portfolio__item projects__card-link">
@@ -74,12 +86,14 @@
           </div>
           <h3>${esc(p.title)}</h3>
         </a>
+
         <p class="projects__impact">${esc(p.impact)}</p>
         <div class="projects__chips" aria-label="Tech stack">${chips}</div>
+
         <div class="projects__links">
-          <a href="${esc(p.repoUrl)}" target="_blank" rel="noopener">Repo</a>
-          <a href="${esc(p.caseStudyUrl)}">Case Study</a>
-          <a href="${esc(p.demoUrl)}" target="_blank" rel="noopener">Demo</a>
+          ${repoLink}
+          ${caseStudyLink}
+          ${demoLink}
         </div>
       </div>
     `;
