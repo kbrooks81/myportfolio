@@ -69,7 +69,9 @@
     return `
       <div class="projects__card" data-category="${esc(p.category)}">
         <a href="${esc(p.caseStudyUrl)}" class="portfolio__item projects__card-link">
-          <img src="${esc(p.thumbnail)}" alt="${esc(p.title)}" class="portfolio__img projects__img">
+          <div class="projects__thumb">
+            <img src="${esc(p.thumbnail)}" alt="${esc(p.title)}" class="projects__img">
+          </div>
           <h3>${esc(p.title)}</h3>
         </a>
         <p class="projects__impact">${esc(p.impact)}</p>
@@ -87,6 +89,7 @@
     const featured = PROJECTS.filter(p => p.featured);
     featuredEl.innerHTML = featured.map(card).join("");
     gridEl.innerHTML = PROJECTS.map(card).join("");
+    //gridEl.innerHTML = PROJECTS.filter(p => !p.featured).map(card).join("");
   }
 
   function setFilter(cat) {
