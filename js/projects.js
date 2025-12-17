@@ -22,7 +22,7 @@
       tech: ["Power BI", "DAX", "Power Query", "Data Modeling"],
       thumbnail: "images/devthekrisbrooks1.png",
       repoUrl: "",
-      caseStudyUrl: "powerbi_dashboard_info.html",
+      caseStudyUrl: "e2875_dashboard_info.html",
       demoUrl: ""
     },
     {

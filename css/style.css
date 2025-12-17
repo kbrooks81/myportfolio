@@ -51,7 +51,7 @@ body {
 
 section {
     padding: 5em 2em;
-    scroll-margin-top: 90px; /* keeps anchors from hiding under sticky header */
+    scroll-margin-top: 90px;
 }
 
 img {

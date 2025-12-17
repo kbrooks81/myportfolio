@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e2875 Dashboard | Case Study</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/portfolio_item.css" />
+
+    <script src="https://kit.fontawesome.com/1bd2d0e425.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Header (matches your new top nav style) -->
+    <header>
+      <a class="site-logo" href="index.html#home">KBrooks<span class="accent">_</span></a>
+
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="index.html#resume" class="nav__link">My Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Case Study<strong>e2875 Dashboard</strong>
+      </h1>
+
+      <p class="section__subtitle section__subtitle--intro">
+        Power BI • Data Modeling • DAX • Power Query
+      </p>
+
+      <!-- Use your best “hero” screenshot here -->
+      <img
+        src="assets/e2875%20Dashboard/overview.png"
+        alt="e2875 Dashboard overview screenshot"
+        class="intro__img"
+      />
+    </section>
+
+    <main class="portfolio-item-individual">
+      <section class="case-section">
+        <h3>Summary</h3>
+        <p class="lead">
+          e2875 is an operational analytics dashboard designed to give stakeholders fast, reliable
+          insight into system activity and trends using a clean data model, purposeful measures, and decision-focused visuals.
+        </p>
+
+        <div class="callout">
+          <p>
+            <strong>Note on access:</strong> This dashboard was built using data and workflows that can’t be shared publicly.
+            This case study focuses on approach, modeling decisions, and redacted visuals.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <h3>At a glance</h3>
+        <ul class="meta">
+          <li><strong>Platform:</strong> Power BI</li>
+          <li><strong>Core skills:</strong> Data modeling, DAX measures, Power Query transformations</li>
+          <li><strong>Goal:</strong> Decision-ready reporting for operational + leadership stakeholders</li>
+          <li><strong>Deliverable:</strong> A dashboard that answers common questions quickly and consistently</li>
+        </ul>
+      </section>
+
+      <section class="case-section">
+        <h3>Problem</h3>
+        <p>
+          Stakeholders needed a clear, reliable view of operational performance without manually combing through exports or
+          spreadsheets. Existing reporting required too much manual effort, and results weren’t consistently presented.
+        </p>
+      </section>
+
+      <section class="case-section">
+        <h3>Solution</h3>
+        <p>
+          I designed a Power BI report centered on a clean model and a date-aware measure strategy. The report pages were
+          intentionally structured to guide users from overview → drilldown, with slicers and visuals optimized for quick
+          scanning and deeper investigation.
+        </p>
+      </section>
+
+      <section class="case-section">
+        <h3>Key features</h3>
+        <ul>
+          <li><strong>Modeled schema:</strong> sensible relationships (including a date table) for time-based analysis</li>
+          <li><strong>DAX measures:</strong> KPIs and trends built for clarity and consistent reuse across visuals</li>
+          <li><strong>Power Query shaping:</strong> refresh-friendly transformations to standardize source exports</li>
+          <li><strong>Usable UX:</strong> slicers + drill patterns built around stakeholder questions</li>
+        </ul>
+      </section>
+
+      <section class="case-section">
+        <h3>Screenshots</h3>
+
+        <div class="gallery">
+          <figure class="shot">
+            <img src="assets/e2875%20Dashboard/overview.png" alt="Dashboard overview page" />
+            <figcaption>Overview page — high-level KPIs and quick navigation.</figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img src="assets/e2875%20Dashboard/model.png" alt="Data model / relationships view" />
+            <figcaption>Modeling approach — relationships and measure strategy built for reliability.</figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img src="assets/e2875%20Dashboard/drilldown.png" alt="Drilldown or detail page" />
+            <figcaption>Drilldown view — focused analysis with slicers and trend context.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <h3>Challenges and tradeoffs</h3>
+        <ul>
+          <li><strong>Performance vs flexibility:</strong> keeping measures reusable without bloating visuals</li>
+          <li><strong>Data consistency:</strong> normalizing exports so definitions stay stable across refreshes</li>
+          <li><strong>Design clarity:</strong> balancing executive scan-ability with meaningful detail when needed</li>
+        </ul>
+      </section>
+
+      <section class="case-section">
+        <h3>What I’d improve next</h3>
+        <ul>
+          <li>Add a redacted demo dataset + public sample report (when feasible)</li>
+          <li>Include a lightweight “refresh health” / admin view for reliability monitoring</li>
+          <li>Add an example RLS pattern section (role-based views) in documentation</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="mailto:kbrooks8193@gmail.com" class="footer__link">kbrooks8193@gmail.com</a>
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/kris-brooks/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/kbrooks81">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/Kbrooks81">
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
