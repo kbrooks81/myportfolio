@@ -28,7 +28,6 @@
   </head>
 
   <body>
-    <!-- Header (matches your new top nav style) -->
     <header>
       <a class="site-logo" href="index.html#home">KBrooks<span class="accent">_</span></a>
 
@@ -70,7 +69,7 @@
 
         <div class="callout">
           <p>
-            <strong>Note on access:</strong> This dashboard was built using data and workflows that can’t be shared publicly.
+            <strong>Note on access:</strong> This dashboard was built using data and workflows that can not be shared publicly.
             This case study focuses on approach, modeling decisions, and redacted visuals.
           </p>
         </div>
@@ -79,7 +78,7 @@
       <section class="case-section">
         <h3>At a glance</h3>
         <ul class="meta">
-          <li><strong>Platform:</strong> Power BI</li>
+          <li><strong>Platform:</strong> Power BI, ServiceNow, SharePoint, Power Automate, SQL</li>
           <li><strong>Core skills:</strong> Data modeling, DAX measures, Power Query transformations</li>
           <li><strong>Goal:</strong> Decision-ready reporting for operational + leadership stakeholders</li>
           <li><strong>Deliverable:</strong> A dashboard that answers common questions quickly and consistently</li>
@@ -90,14 +89,14 @@
         <h3>Problem</h3>
         <p>
           Stakeholders needed a clear, reliable view of operational performance without manually combing through exports or
-          spreadsheets. Existing reporting required too much manual effort, and results weren’t consistently presented.
+          spreadsheets. Existing reporting required too much manual effort, and results were either not consistently presented or not presented at all.
         </p>
       </section>
 
       <section class="case-section">
         <h3>Solution</h3>
         <p>
-          I designed a Power BI report centered on a clean model and a date-aware measure strategy. The report pages were
+          A Power BI report centered on a clean model and a date-aware measure strategy. The report pages were
           intentionally structured to guide users from overview → drilldown, with slicers and visuals optimized for quick
           scanning and deeper investigation.
         </p>
@@ -106,16 +105,15 @@
       <section class="case-section">
         <h3>Key features</h3>
         <ul>
-          <li><strong>Modeled schema:</strong> sensible relationships (including a date table) for time-based analysis</li>
+          <li><strong>Modeled schema:</strong> sensible relationships between each report to ensure reliable data across scopes</li>
           <li><strong>DAX measures:</strong> KPIs and trends built for clarity and consistent reuse across visuals</li>
           <li><strong>Power Query shaping:</strong> refresh-friendly transformations to standardize source exports</li>
-          <li><strong>Usable UX:</strong> slicers + drill patterns built around stakeholder questions</li>
+          <li><strong>Usable UX:</strong> slicers + drill patterns built around stakeholder questions and concerns</li>
         </ul>
       </section>
 
       <section class="case-section">
         <h3>Screenshots</h3>
-
         <div class="gallery">
           <figure class="shot">
             <img src="assets/projects/e2875_DashBoard/requests_page.png" alt="Dashboard requests page" class="lightbox-trigger" />
@@ -148,16 +146,8 @@
         <ul>
           <li><strong>Performance vs flexibility:</strong> keeping measures reusable without bloating visuals</li>
           <li><strong>Data consistency:</strong> normalizing exports so definitions stay stable across refreshes</li>
+          <li><strong>Data collection:</strong> compiling all necessary data sources into a single source of truth</li>
           <li><strong>Design clarity:</strong> balancing executive scan-ability with meaningful detail when needed</li>
-        </ul>
-      </section>
-
-      <section class="case-section">
-        <h3>What I’d improve next</h3>
-        <ul>
-          <li>Add a redacted demo dataset + public sample report (when feasible)</li>
-          <li>Include a lightweight “refresh health” / admin view for reliability monitoring</li>
-          <li>Add an example RLS pattern section (role-based views) in documentation</li>
         </ul>
       </section>
     </main>
