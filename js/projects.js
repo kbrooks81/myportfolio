@@ -10,9 +10,9 @@
       impact: "React Native app for location-based restaurant discovery using search + maps.",
       tech: ["Expo", "TypeScript", "Context API", "Maps", "Places"],
       thumbnail: "images/devthekrisbrooks1.png",
-      repoUrl: "https://github.com/kbrooks81",
+      repoUrl: "https://github.com/kbrooks81/MealsToGo",
       caseStudyUrl: "mealtogo_info.html",
-      demoUrl: "https://github.com/kbrooks81"
+      demoUrl: ""
     },
     {
       title: "Power BI Dashboard",
@@ -21,9 +21,9 @@
       impact: "Interactive operational dashboard with a modeled dataset and DAX measures.",
       tech: ["Power BI", "DAX", "Power Query", "Data Modeling"],
       thumbnail: "images/devthekrisbrooks1.png",
-      repoUrl: "https://github.com/kbrooks81",
+      repoUrl: "",
       caseStudyUrl: "powerbi_dashboard_info.html",
-      demoUrl: "https://github.com/kbrooks81"
+      demoUrl: ""
     },
     {
       title: "Course Registration System",
@@ -32,67 +32,12 @@
       impact: "Web project simulating a course registration workflow with clear UI and flows.",
       tech: ["HTML", "CSS", "JavaScript"],
       thumbnail: "images/CRS_1.PNG",
-      repoUrl: "https://github.com/kbrooks81/myportfolio",
+      repoUrl: "https://github.com/kbrooks81/Course-Registration-System",
       caseStudyUrl: "course_registration_system_info.html",
-      demoUrl: "course_registration_system_info.html"
+      demoUrl: ""
     },
 
     // ===== All Projects =====
-    {
-      title: "Arithmetic Formatter",
-      category: "web",
-      featured: false,
-      impact: "Formats arithmetic problems into clean, readable output (practice project).",
-      tech: ["HTML", "CSS", "JavaScript"],
-      thumbnail: "images/arithmetic_format.jpg",
-      repoUrl: "https://github.com/kbrooks81/myportfolio",
-      caseStudyUrl: "arithmetic_formatter_info.html",
-      demoUrl: "arithmetic_formatter_info.html"
-    },
-    {
-      title: "Time Calculator",
-      category: "web",
-      featured: false,
-      impact: "Adds durations to start times and returns normalized results.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      thumbnail: "images/time_cal.jpg",
-      repoUrl: "https://github.com/kbrooks81/myportfolio",
-      caseStudyUrl: "time_calculator_info.html",
-      demoUrl: "time_calculator_info.html"
-    },
-    {
-      title: "Budget App",
-      category: "web",
-      featured: false,
-      impact: "Simple budgeting experience that tracks entries and totals.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      thumbnail: "images/budget_app.jpg",
-      repoUrl: "https://github.com/kbrooks81/myportfolio",
-      caseStudyUrl: "budget_app_info.html",
-      demoUrl: "budget_app_info.html"
-    },
-    {
-      title: "Survey Form",
-      category: "web",
-      featured: false,
-      impact: "Responsive survey form with structured inputs and styling.",
-      tech: ["HTML", "CSS"],
-      thumbnail: "images/GaGa's_Goodies_test.PNG",
-      repoUrl: "https://github.com/kbrooks81/myportfolio",
-      caseStudyUrl: "survey_form_info.html",
-      demoUrl: "survey_form_info.html"
-    },
-    {
-      title: "Tribute Page",
-      category: "web",
-      featured: false,
-      impact: "Single-page tribute layout with typography and media.",
-      tech: ["HTML", "CSS"],
-      thumbnail: "images/Deep_Souths_Oldest_Rivalry_test.PNG",
-      repoUrl: "https://github.com/kbrooks81/myportfolio",
-      caseStudyUrl: "tribute_page_info.html",
-      demoUrl: "tribute_page_info.html"
-    },
     {
       title: "Test Driven Development",
       category: "other",
@@ -100,7 +45,7 @@
       impact: "TDD-focused project documenting approach and workflow.",
       tech: ["TDD", "Testing"],
       thumbnail: "images/TDD_1.PNG",
-      repoUrl: "https://github.com/kbrooks81/myportfolio",
+      repoUrl: "https://github.com/kbrooks81/ITEC4365_FP_krisbrooks",
       caseStudyUrl: "tdd_info.html",
       demoUrl: "tdd_info.html"
     }

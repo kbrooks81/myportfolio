@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevTheKrisBrooks Portfolio Website</title>
+        <title>Kris Brooks Portfolio</title>
 
         <link rel="stylesheet" 
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
@@ -12,8 +12,10 @@
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
 
-        <!--  I can update font here if needed-->
+        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
 
         <link rel="stylesheet" href="css/style.css">
 
@@ -22,14 +24,8 @@
 
     <body>
         <header>
-            <a href="#home">
-                <div class="logo">
-                    <img src="images/devthekrisbrooks1.png" alt="">
-                </div>
-            </a>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
+            <a href="#home" class="site-logo">KBrooks<span class="accent">_</span></a>
+
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
@@ -131,7 +127,6 @@
                 <button class="projects__filter is-active" type="button" data-filter="all">All</button>
                 <button class="projects__filter" type="button" data-filter="react-native">React Native</button>
                 <button class="projects__filter" type="button" data-filter="power-bi">Power BI</button>
-                <button class="projects__filter" type="button" data-filter="web">Web</button>
                 <button class="projects__filter" type="button" data-filter="other">Other</button>
             </div>
 
