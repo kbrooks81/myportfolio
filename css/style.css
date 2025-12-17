@@ -265,7 +265,7 @@ header {
     display: block;
     width: 2em;
     height: 1px;
-    margin: 0.5em auto 1em;
+    margin: 0.5em auto 0.5em;
     background: var(--clr-light);
     opacity: 0.25;
 }
@@ -278,6 +278,23 @@ header {
     max-width: 500px;
     margin: 0 auto;
 }
+
+.services-intro {
+  max-width: 60ch;
+  margin: 0 auto 2em;
+  text-align: center;
+}
+
+.service p {
+  max-width: 38ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service h3 {
+  text-align: center;
+}
+
 
 @media (min-width: 800px) {
     .services {
