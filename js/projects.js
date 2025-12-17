@@ -20,7 +20,7 @@
       featured: true,
       impact: "Interactive operational dashboard with a modeled dataset and DAX measures.",
       tech: ["Power BI", "DAX", "Power Query", "Data Modeling"],
-      thumbnail: "assets/projects/e2875_dashboard/requests_page.png",
+      thumbnail: "assets/projects/e2875-dashboard/requests_page.png",
       repoUrl: "",
       caseStudyUrl: "e2875_dashboard_info.html",
       demoUrl: ""
