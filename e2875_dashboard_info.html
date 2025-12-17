@@ -118,7 +118,7 @@
 
         <div class="gallery">
           <figure class="shot">
-            <img src="assets/projects/e2875_DashBoard/requests_page.png" alt="Dashboard requests page" />
+            <img src="assets/projects/e2875_DashBoard/requests_page.png" alt="Dashboard requests page" class="lightbox-trigger" />
             <figcaption>
               A centralized view of platform activity powered by SQL, featuring a 12-month rolling trend that can be filtered
               by request type, system, base, MAJCOM, or time period to help leadership track workload and growth.
@@ -126,7 +126,7 @@
           </figure>
 
           <figure class="shot">
-            <img src="assets/projects/e2875_DashBoard/systems_page.png" alt="Dashboard systems page" />
+            <img src="assets/projects/e2875_DashBoard/systems_page.png" alt="Dashboard systems page" class="lightbox-trigger" />
             <figcaption>
               Integrated with SharePoint, the system list replaces multiple manually maintained spreadsheets with a single source of truth, providing real-time
               visibility into active systems, environments, and monthly production migrations.
@@ -134,7 +134,7 @@
           </figure>
 
           <figure class="shot">
-            <img src="assets/projects/e2875_DashBoard/support_page.png" alt="Dashboard support page" />
+            <img src="assets/projects/e2875_DashBoard/support_page.png" alt="Dashboard support page" class="lightbox-trigger" />
             <figcaption>
               ServiceNow ticket data is automatically collected via Power Automate, stored in SharePoint, and visualized in Power BI to track volume,
               identify recurring issues, and inform documentation and process improvements
@@ -188,5 +188,13 @@
         </li>
       </ul>
     </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox__content">
+        <img src="" alt="" id="lightboxImg" />
+      </div>
+    </div>
+
+    <script src="js/lightbox.js"></script>
   </body>
 </html>

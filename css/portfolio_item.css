@@ -300,6 +300,45 @@ header {
   line-height: 1.5;
 }
 
+/* Lightbox overlay */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 3000;
+}
+
+.lightbox.is-active {
+  display: flex;
+}
+
+.lightbox__content {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.lightbox__content img {
+  width: 100%;
+  height: auto;
+  max-height: 90vh;
+  border-radius: 0.75em;
+  box-shadow: var(--bs);
+  cursor: zoom-out;
+}
+
+.lightbox-trigger {
+  cursor: zoom-in;
+}
+
+.lightbox-trigger:hover {
+  opacity: 0.9;
+  transform: scale(1.01);
+}
+
+
 /* Footer */
 .footer {
   background: #111;
