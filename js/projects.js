@@ -9,7 +9,7 @@
       featured: true,
       impact: "React Native app for location-based restaurant discovery using search + maps.",
       tech: ["Expo", "TypeScript", "Context API", "Maps", "Places"],
-      thumbnail: "images/devthekrisbrooks1.png",
+      thumbnail: "assets/global/devthekrisbrooks1.png",
       repoUrl: "https://github.com/kbrooks81/MealsToGo",
       caseStudyUrl: "mealtogo_info.html",
       demoUrl: ""
@@ -20,7 +20,7 @@
       featured: true,
       impact: "Interactive operational dashboard with a modeled dataset and DAX measures.",
       tech: ["Power BI", "DAX", "Power Query", "Data Modeling"],
-      thumbnail: "images/devthekrisbrooks1.png",
+      thumbnail: "assets/projects/e2875_dashboard/requests_page.png",
       repoUrl: "",
       caseStudyUrl: "e2875_dashboard_info.html",
       demoUrl: ""
@@ -31,7 +31,7 @@
       featured: true,
       impact: "Web project simulating a course registration workflow with clear UI and flows.",
       tech: ["HTML", "CSS", "JavaScript"],
-      thumbnail: "images/CRS_1.PNG",
+      thumbnail: "assets/projects/CRS/CRS_1.PNG",
       repoUrl: "https://github.com/kbrooks81/Course-Registration-System",
       caseStudyUrl: "course_registration_system_info.html",
       demoUrl: ""
@@ -44,7 +44,7 @@
       featured: false,
       impact: "TDD-focused project documenting approach and workflow.",
       tech: ["TDD", "Testing"],
-      thumbnail: "images/TDD_1.PNG",
+      thumbnail: "assets/projects/TDD/TDD_1.PNG",
       repoUrl: "https://github.com/kbrooks81/ITEC4365_FP_krisbrooks",
       caseStudyUrl: "tdd_info.html",
       demoUrl: ""
