@@ -428,7 +428,7 @@ header {
 
 .projects__heading {
     margin: 1.5em 0 .75em;
-    font-size: var(--fs-h3);
+    font-size: calc(var(--fs-h3) * 1.15);
     position: relative;
 }
 
@@ -577,6 +577,21 @@ header {
     rgba(245, 243, 245, 0.35),
     transparent
   );
+}
+
+.projects__card-link {
+  display: block;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+.projects__card-link:focus {
+  outline: none;
+}
+
+.projects__card-link:focus-visible .projects__thumb::after {
+  border-color: var(--clr-accent);
+  box-shadow: 0 0 0 3px var(--clr-accent);
 }
 
 /* Resume */

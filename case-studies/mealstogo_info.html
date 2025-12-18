@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MealsToGo | Case Study</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/portfolio_item.css" />
+
+    <script src="https://kit.fontawesome.com/1bd2d0e425.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="case-mealstogo">
+    <header>
+      <a class="site-logo" href="../index.html#home">KBrooks<span class="accent">_</span></a>
+
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="../index.html#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="../index.html#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="../index.html#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="../index.html#resume" class="nav__link">My Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Case Study<strong>MealsToGo</strong>
+      </h1>
+
+      <p class="section__subtitle section__subtitle--intro">
+        React Native • Expo • Context API
+      </p>
+
+      <img
+        src="../assets/projects/MealsToGo/mealstogo-case-study-thumbnail.png"
+        alt="MealsToGo app preview"
+        class="intro__img"
+      />
+    </section>
+
+    <main class="portfolio-item-individual">
+      <!-- Summary -->
+      <section class="case-section">
+        <h3>Summary</h3>
+        <p class="lead">
+          MealsToGo is a React Native restaurant discovery app that lets users search a city, browse restaurants,
+          and explore locations on a map with a smooth, predictable selection flow between tabs.
+        </p>
+
+        <div class="callout">
+          <p>
+            <strong>Live demo:</strong> A full walkthrough is available on YouTube showing the user flow from
+            city search → list → map → selection.
+          </p>
+        </div>
+      </section>
+
+      <!-- At a glance -->
+      <section class="case-section">
+        <h3>At a glance</h3>
+        <ul class="meta">
+          <li><strong>Platform:</strong> React Native (Expo)</li>
+          <li><strong>Core skills:</strong> Context API state management, navigation, map interactions, UX consistency</li>
+          <li><strong>Key features:</strong> City search, viewport-based map zoom, selection syncing</li>
+          <li><strong>Deliverable:</strong> Mobile app experience + recorded live demo</li>
+        </ul>
+      </section>
+
+      <!-- Live Demo -->
+      <section class="case-section">
+        <h3>Live demo</h3>
+        <p>
+          This video shows the full user journey: search a city, browse restaurants, switch to the map, select a location,
+          and verify the selection resets correctly when changing cities.
+        </p>
+
+        <div class="video-embed">
+          <iframe 
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/1S6dHtgNBdI?si=xhdOtudLHh1y2AR2"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="links">
+          <a class="project__source-link" href="https://github.com/kbrooks81/MealsToGo" target="_blank" rel="noreferrer">
+            View code →
+          </a>
+        </div>
+      </section>
+
+      <!-- Problem -->
+      <section class="case-section">
+        <h3>Problem</h3>
+        <p>
+          Restaurant discovery experiences often break down when users change cities: map zoom can feel wrong,
+          previously selected restaurants can linger, and the UI can become inconsistent across list and map views.
+          I wanted a flow where user intent is always reflected immediately and correctly.
+        </p>
+      </section>
+
+      <!-- Solution -->
+      <section class="case-section">
+        <h3>Solution</h3>
+        <p>
+          MealsToGo uses a city-first state model and predictable “selection reset” behavior. Searching a new city updates the
+          viewport and clears stale restaurant selection so the map and list stay aligned.
+        </p>
+      </section>
+
+      <!-- Key Features -->
+      <section class="case-section">
+        <h3>Key features</h3>
+        <ul>
+          <li><strong>City search:</strong> Google Places autocomplete for fast, accurate location selection</li>
+          <li><strong>Map behavior:</strong> viewport-based zoom to match the selected city</li>
+          <li><strong>Selection syncing:</strong> selecting a restaurant updates map markers + detail UI</li>
+          <li><strong>State hygiene:</strong> selection resets on city changes to prevent stale UI</li>
+        </ul>
+      </section>
+
+      <!-- Screenshots -->
+      <section class="case-section">
+        <h3>Screenshots</h3>
+
+        <div class="gallery">
+          <figure class="shot">
+            <img
+              class="lightbox-trigger"
+              src="../assets/projects/mealstogo/restaurant-list-view.png"
+              alt="MealsToGo - city search and restaurant list"
+            />
+            <figcaption>Search for a city and browse restaurants with quick “open now” and rating context.</figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img
+              class="lightbox-trigger"
+              src="../assets/projects/mealstogo/map-view-restaurant-selected.png"
+              alt="MealsToGo - map view after selecting a city"
+            />
+            <figcaption>Map view zooms to the selected city using viewport-based deltas.</figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img
+              class="lightbox-trigger"
+              src="../assets/projects/mealstogo/map-view-no-restaurant-selected.png"
+              alt="MealsToGo - restaurant selection syncing"
+            />
+            <figcaption>Restaurant selection stays consistent across list + map, and resets correctly on city changes.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Challenges -->
+      <section class="case-section">
+        <h3>Challenges and tradeoffs</h3>
+        <ul>
+          <li><strong>State consistency:</strong> ensuring city changes clear stale restaurant selection</li>
+          <li><strong>Map UX:</strong> keeping zoom/viewport feeling natural across different cities</li>
+          <li><strong>Performance:</strong> avoiding unnecessary re-renders when switching tabs or locations</li>
+          <li><strong>Mobile layout:</strong> balancing readable cards with touch targets and scroll behavior</li>
+        </ul>
+      </section>
+
+      <!-- close/back -->
+      <section class="case-section">
+        <h3>Back to portfolio</h3>
+        <p>
+          Want to see more work? Return to the projects section.
+        </p>
+        <a class="project__source-link" href="../index.html#projects">← Back to Projects</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="mailto:kbrooks8193@gmail.com" class="footer__link">kbrooks8193@gmail.com</a>
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/kris-brooks/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/kbrooks81">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/Kbrooks81">
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox__content">
+        <img src="" alt="" id="lightboxImg" />
+      </div>
+    </div>
+
+    <script src="../js/lightbox.js"></script>
+  </body>
+</html>

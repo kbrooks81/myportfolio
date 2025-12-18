@@ -4,15 +4,15 @@
   const PROJECTS = [
     // ===== Featured =====
     {
-      title: "MealToGo",
+      title: "MealsToGo",
       category: "react-native",
       featured: true,
       impact: "React Native app for location-based restaurant discovery using search + maps.",
       tech: ["Expo", "TypeScript", "Context API", "Maps", "Places"],
-      thumbnail: "assets/global/devthekrisbrooks1.png",
+      thumbnail: "assets/projects/MealsToGo/mealstogo-main-thumbnail.png",
       repoUrl: "https://github.com/kbrooks81/MealsToGo",
-      caseStudyUrl: "mealtogo_info.html",
-      demoUrl: ""
+      caseStudyUrl: "case-studies/mealstogo_info.html",
+      demoUrl: "https://youtu.be/1S6dHtgNBdI?si=74WgtBta-7ICdLft"
     },
     {
       title: "e2875 Dashboard",
@@ -20,9 +20,9 @@
       featured: true,
       impact: "Interactive operational dashboard with a modeled dataset and DAX measures.",
       tech: ["Power BI", "DAX", "Power Query", "Data Modeling"],
-      thumbnail: "assets/projects/e2875-dashboard/requests_page.png",
+      thumbnail: "assets/projects/e2875-dashboard/e2875-dashboard-thumbnail.png",
       repoUrl: "",
-      caseStudyUrl: "e2875_dashboard_info.html",
+      caseStudyUrl: "case-studies/e2875_dashboard_info.html",
       demoUrl: ""
     },
     {
@@ -33,7 +33,7 @@
       tech: ["HTML", "CSS", "JavaScript"],
       thumbnail: "assets/projects/CRS/CRS_1.PNG",
       repoUrl: "https://github.com/kbrooks81/Course-Registration-System",
-      caseStudyUrl: "course_registration_system_info.html",
+      caseStudyUrl: "case-studies/course_registration_system_info.html",
       demoUrl: ""
     },
 
@@ -46,7 +46,7 @@
       tech: ["TDD", "Testing"],
       thumbnail: "assets/projects/TDD/TDD_1.PNG",
       repoUrl: "https://github.com/kbrooks81/ITEC4365_FP_krisbrooks",
-      caseStudyUrl: "tdd_info.html",
+      caseStudyUrl: "case-studies/tdd_info.html",
       demoUrl: ""
     }
   ];
