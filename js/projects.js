@@ -43,8 +43,8 @@
       category: "other",
       featured: false,
       impact: "TDD-focused project documenting approach and workflow.",
-      tech: ["TDD", "Testing"],
-      thumbnail: "assets/projects/TDD/TDD_1.PNG",
+      tech: ["Python", "Django", "TDD"],
+      thumbnail: "assets/projects/TDD/tdd-main-thumbnail.png",
       repoUrl: "https://github.com/kbrooks81/ITEC4365_FP_krisbrooks",
       caseStudyUrl: "case-studies/tdd_info.html",
       demoUrl: ""
