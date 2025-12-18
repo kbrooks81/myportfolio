@@ -11,7 +11,7 @@
       tech: ["Expo", "TypeScript", "Context API", "Maps", "Places"],
       thumbnail: "assets/global/devthekrisbrooks1.png",
       repoUrl: "https://github.com/kbrooks81/MealsToGo",
-      caseStudyUrl: "mealtogo_info.html",
+      caseStudyUrl: "case-studies/mealtogo_info.html",
       demoUrl: ""
     },
     {
@@ -22,7 +22,7 @@
       tech: ["Power BI", "DAX", "Power Query", "Data Modeling"],
       thumbnail: "assets/projects/e2875-dashboard/requests_page.png",
       repoUrl: "",
-      caseStudyUrl: "e2875_dashboard_info.html",
+      caseStudyUrl: "case-studies/e2875_dashboard_info.html",
       demoUrl: ""
     },
     {
@@ -33,7 +33,7 @@
       tech: ["HTML", "CSS", "JavaScript"],
       thumbnail: "assets/projects/CRS/CRS_1.PNG",
       repoUrl: "https://github.com/kbrooks81/Course-Registration-System",
-      caseStudyUrl: "course_registration_system_info.html",
+      caseStudyUrl: "case-studies/course_registration_system_info.html",
       demoUrl: ""
     },
 
@@ -46,7 +46,7 @@
       tech: ["TDD", "Testing"],
       thumbnail: "assets/projects/TDD/TDD_1.PNG",
       repoUrl: "https://github.com/kbrooks81/ITEC4365_FP_krisbrooks",
-      caseStudyUrl: "tdd_info.html",
+      caseStudyUrl: "case-studies/tdd_info.html",
       demoUrl: ""
     }
   ];
