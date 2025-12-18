@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevTheKrisBrooks Portfolio Website</title>
+        <title>Kris Brooks Portfolio</title>
 
         <link rel="stylesheet" 
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
@@ -12,8 +12,10 @@
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
 
-        <!--  I can update font here if needed-->
+        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
 
         <link rel="stylesheet" href="css/style.css">
 
@@ -22,18 +24,14 @@
 
     <body>
         <header>
-            <div class="logo">
-                <img src="images/devthekrisbrooks1.png" alt="">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
+            <a href="#home" class="site-logo">KBrooks<span class="accent">_</span></a>
+
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
                     <li class="nav__item"><a href="#resume" class="nav__link">My Resume</a></li>
                 </ul>
             </nav>
@@ -45,45 +43,35 @@
                 Hi, I am <strong>Kris Brooks</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">Software Eng & Dev</p>
-            <img src="images/myheadshot.png" alt="a picture of Kris Brooks" class="intro__img">
+            <img src="assets/global/myheadshot.png" alt="a picture of Kris Brooks" class="intro__img">
         </section>
 
 
         <!-- My services -->
         <section class="my-services" id="services">
             <h2 class="section__title section__title--services">What I do</h2>
+            <p class="services-intro">I build practical software solutions that combine clean user experiences with reliable data and systems.</p>
             <div class="services">
                 <div class="service">
-                    <h3>Software Engineering</h3>
+                    <h3>Application Development</h3>
                     <p>
-                        On the road to obtaining my Bachelors of Science in Information Technology, I intentionally chose
-                        to specialize in the dynamic field of software engineering. This decision has been instrumental in not
-                        only sharpening my critical thinking abilities but also fostering growth across a wide spectrum of 
-                        information technology domains. I have acquired invaluable experience in diverse areas including 
-                        project management, network management, software security, web development, and a variety of 
-                        software development methodologies such as Agile and SDLC.
+                        Using modern tools like React Native and Expo, I build mobile solutions which focus on usability, performance, and maintainable code. 
                     </p>
                 </div> <!-- / service -->
 
                 <div class="service">
-                    <h3>Software Development</h3>
+                    <h3>Data & Analytics</h3>
                     <p>
-                        Starting this fall, I am embarking on a thrilling new phase in my educational journey as I passionately pursue my Masters of Science in Information Technology, 
-                        specializing in software design & development. This opportunity fills me with immense excitement as it enables me to fortify my existing knowledge and further 
-                        refine my expertise in software development. With a solid foundation already established, I am eager to delve deeper 
-                        into the intricacies of this field, exploring innovative concepts and cutting-edge techniques.
-
+                        I create Power BI dashboards that transform raw data into actionable insights. From data modeling and DAX measures to report design, I focus on clarity,
+                        accuracy, and decision-ready reporting for technical and non-technical stakeholders.
+                    </p>
                 </div> <!-- / service -->
 
                 <div class="service">
-                    <h3>Continuous Learning</h3>
+                    <h3>Systems & Cloud Support</h3>
                     <p>
-                        I am a firm advocate of continuous learning, particularly within the dynamic software industry. 
-                        Technological advancements and transformations are ubiquitous, and the ability to constantly acquire
-                        new knowledge and adapt is paramount to one's success. In this ever-evolving field, there is an 
-                        abundance of information available, offering endless opportunities to enhance your skillset. 
-                        Engaging in the process of continuous learning not only equips you with the latest tools and 
-                        techniques but also facilitates personal growth and professional development.
+                        With hands-on experience in enterprise IT environments, I support system onboarding, troubleshooitng, and operational workflows. I bridge the gap between users,
+                        developers, and infrastructure to ensure systems work as intended.
                     </p>                
                 </div> <!-- / service -->
             </div> <!-- / services -->
@@ -98,76 +86,69 @@
             <p class="section__subtitle section__subtitle--about">MSIT | Software Design & Development </p>
 
             <div class="about-me__body">
-                <p>I am a recent graduate and current grad student of Middle Georgia State University. As far as my educational qualifications are concerned, 
-                    I have two associate level degrees from Georgia Military College, one in business administration and another in computer science. I recently
-                    completed my undergraduate degree with a primary focus in software engineering. My plan is to obtain additional work experience in the software
-                    industry while working to complete my graduate program by the summer of 2024.</p>
-                <p>I have 7 years of work experience in the insurance industry and 2 years of experience perfecting my software development skillset. I currently 
-                    hold a seat on the executive board as the Publicity Chair and Co-IT Coordinator of the Middle Georgia State University chapter of the National 
-                    Society of Leadership and Success.
+                <p>
+                    I am an IT professional and software developer with a strong foundation in application development,
+                    data analytics, and enterprise systems support.
+                </p>
+                <p>
+                    Most recently, I worked as a Base Administrator, where I supported system onboarding, resolved technical issues,
+                    built dashboards using Power BI and ServiceNow, and maintained customer-facing tools such as SharePoint sites.
+                </p>
+                <p>
+                    Since completing that contract, I have been focused on building and refining my skills in React Native and cloud
+                    infrastructure using Terraform, emphasizing clean architecture, thoughtful UX, and practical problem-solving.
+                    I enjoy breaking down complex problems, documenting tradeoffs, and iterating based on feedback.
+                </p>
+                <p>
+                    I hold degrees in Information Technology, Computer Science, and Business Administration, along with certifications in Azure Fundamentals,
+                    Security+, and programming foundations. I am currently seeking a software engineering or cloud-focused role where I can
+                    apply my skills to real-world problems and continue growing as an engineer.
                 </p>
             </div>
 
-            <img src="images/aboutmepictest.PNG" alt="picture of me" class="about-me__img">
+            <img src="assets/global/aboutmepictest.PNG" alt="picture of me" class="about-me__img">
         </section>
 
         <!-- My Work -->
         <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My Work</h2>
-            <p class="section__subtitle section__subtitle--work">The Showcase of My Portfolio</p>
+            <h2 class="section__title section__title--work">Projects</h2>
+            <p class="section__subtitle section__subtitle--work">
+                Selected work across React Native, Power BI analytics, and web development.
+            </p>
 
-            <!-- Portfolio item 01 -->
-            <div class="portfolio">
-                <a href="arithmetic_formatter_info.html" class="portfolio__item">
-                    <img src="images/arithmetic_format.jpg" alt="Arithmetic Formatter" class="portfolio__img">
-                    <h3>Arithmetic Formatter</h3>
-                </a>     
-            
+            <!-- Featured -->
+            <h3 class="projects__heading">Featured</h3>
+            <div class="projects__featured portfolio" id="featuredProjects">
+                <!-- Rendered by js/projects.js -->
+            </div>
 
-            <!-- Portfolio item 02 -->
-            
-                <a href="time_calculator_info.html" class="portfolio__item">
-                    <img src="images/time_cal.jpg" alt="Time Calculator" class="portfolio__img">
-                    <h3>Time Calculator</h3>
-                </a>
-            
+            <div class="projects__divider"></div>
 
-            <!-- Portfolio item 03 -->
-            
-                <a href="budget_app_info.html" class="portfolio__item">
-                    <img src="images/budget_app.jpg" alt="Budget App" class="portfolio__img">
-                    <h3>Budget App</h3>
-                </a>          
+            <div class="projects__all">
+                <!-- Filters -->
+                <div class="projects__filters" aria-label="Project filters">
+                    <button class="projects__filter is-active" type="button" data-filter="all">All</button>
+                    <button class="projects__filter" type="button" data-filter="react-native">React Native</button>
+                    <button class="projects__filter" type="button" data-filter="power-bi">Power BI</button>
+                    <button class="projects__filter" type="button" data-filter="other">Other</button>
+                </div>
 
-            <!-- Portfolio item 04 -->
+                <!-- All Projects -->
+                <h3 class="projects__heading">All Projects</h3>
+                <div class="projects__grid portfolio" id="projectsGrid">
+                    <!-- Rendered by js/projects.js -->
+                </div>
+            </div>
 
-                <a href="survey_form_info.html" class="portfolio__item">
-                    <img src="images/GaGa's_Goodies_test.PNG" alt="GaGa's Goodies Survey Form" class="portfolio__img">
-                    <h3>Survey Form</h3>
-                </a>
-        
-            <!-- Portfolio item 05 -->
-            
-                <a href="tribute_page_info.html" class="portfolio__item">
-                    <img src="images/Deep_Souths_Oldest_Rivalry_test.PNG" alt="Deep Souths Oldest Rivalry Tribute Page" class="portfolio__img">
-                    <h3>Tribute Page</h3>
-                </a>
-
-            <!-- Portfolio item 06 -->
-            
-                <a href="course_registration_system_info.html" class="portfolio__item">
-                    <img src="images/CRS_1.PNG" alt="Course Registration System" class="portfolio__img">
-                    <h3>Course Registration System</h3>
-                </a>
-
-            <!-- Portfolio item 07 -->
-            
-                <a href="tdd_info.html" class="portfolio__item">
-                    <img src="images/TDD_1.PNG" alt="Test Driven Development" class="portfolio__img">
-                    <h3>Test Driven Development</h3>
-                </a>
-                
-            </div>         
+            <!-- How I build -->
+            <div class="projects__how">
+                <h3 class="projects__heading">How I build</h3>
+                <ul class="projects__how-list">
+                    <li>I ship working demos first.</li>
+                    <li>I document tradeoffs + decisions.</li>
+                    <li>I iterate with feedback and measurable improvements.</li>
+                </ul>
+            </div>
         </section>
 
         <!-- My Resume -->
@@ -201,11 +182,6 @@
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://replit.com/@kbrooks81">
-                        <i class="fas fa-code"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
                     <a class="social-list__link" href="https://codepen.io/Kbrooks81">
                         <i class="fa-brands fa-codepen"></i>
                     </a>
@@ -214,6 +190,7 @@
         </footer>
 
         <script src="js/index.js"></script>
+        <script src="js/projects.js"></script>
 
     </body>
 </html>
