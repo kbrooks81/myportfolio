@@ -1,100 +1,306 @@
 <!DOCTYPE html>
-<html land="en">
-    <head>
-        <meta charset="'UTF-8">
-        <meta name="'viewpoit" content="width=device-width, initial-scale=1.0">
-        <title>TDD</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TDD | Test-Driven Development with Python</title>
 
-        <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
 
-        <!--  I can update font here if needed-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/portfolio_item.css" />
 
-        <link rel="stylesheet" href="css/portfolio_item.css">
+    <script
+      src="https://kit.fontawesome.com/1bd2d0e425.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-        <script src="https://kit.fontawesome.com/1bd2d0e425.js" crossorigin="anonymous"></script>
-    </head>
+  <body>
+    <header>
+      <a class="site-logo" href="../index.html#home"
+        >KBrooks<span class="accent">_</span></a
+      >
 
-    <body>
-        <header>
-            <a href="index.html#home">
-                <div class="logo">
-                    <img src="images/devthekrisbrooks1.png" alt="">
-                </div>
-            </a>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-                    <li class="nav__item"><a href="index.html#resume" class="nav__link">My Resume</a></li>
-                </ul>
-            </nav>
-        </header>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="../index.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="../index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="../index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="../index.html#work" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="../index.html#resume" class="nav__link">My Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <!-- Introdcution -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                software testing & QA<strong>Test Driven Dev</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Django</p>
-            <img src="images/TDD_1.PNG" alt="Test Driven Development" class="intro__img">
-        </section>
+    <!-- Intro -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Case Study<strong>Test-Driven Development</strong>
+      </h1>
 
+      <p class="section__subtitle section__subtitle--intro">
+        Python • Django • Automated Testing
+      </p>
 
-        <div class="portfolio-item-individual">
-            <p>This project is the culmination of work I completed throughout the semester and beyond in my Software Testing and Quality Assurance
-                undergratuate course. 
-            </p>
-            <img src="images/TDD_info.PNG" alt="Test Driven Development" class="info__img">
-            
-            <p>You can access my code: <a href="https://github.com/kbrooks81/ITEC4365_FP_krisbrooks" class="project__source-link"> here</a></p>
+      <img
+        src="../assets/projects/tdd/TDD_1.PNG"
+        alt="Test-Driven Development with Python"
+        class="intro__img"
+      />
+    </section>
+
+    <main class="portfolio-item-individual">
+      <!-- Summary -->
+      <section class="case-section">
+        <h3>Summary</h3>
+        <p class="lead">
+          This project was completed as part of a university-level course focused
+          entirely on Test-Driven Development (TDD). Using Python and Django, the
+          application was built incrementally by writing automated tests first
+          and implementing code only to satisfy failing tests.
+        </p>
+
+        <div class="callout">
+          <p>
+            <strong>No traditional demo:</strong> This project emphasizes
+            development methodology, test design, and iterative refinement over
+            a polished UI or standalone application.
+          </p>
         </div>
+      </section>
 
+      <!-- At a glance -->
+      <section class="case-section">
+        <h3>At a glance</h3>
+        <ul class="meta">
+          <li>
+            <strong>Type:</strong> Test-Driven Development coursework
+          </li>
+          <li><strong>Language:</strong> Python</li>
+          <li><strong>Framework:</strong> Django</li>
+          <li>
+            <strong>Testing tools:</strong> unittest, Django test framework,
+            Selenium
+          </li>
+          <li>
+            <strong>Source location:</strong> <code>GitHub Repository</code>
+          </li>
+        </ul>
+      </section>
 
+      <!-- Problem -->
+      <section class="case-section">
+        <h3>Problem</h3>
+        <p>
+          The challenge was not simply to build a working application, but to
+          rigorously apply Test-Driven Development principles throughout the
+          entire lifecycle. Each feature needed to be justified by a failing
+          test, with the final system emerging through small, verified steps.
+        </p>
+      </section>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <a href='mailto:kbrooks8193@gmail.com' class="footer__link">kbrooks8193@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/kris-brooks/">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/kbrooks81">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://replit.com/@kbrooks81">
-                        <i class="fas fa-code"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://codepen.io/Kbrooks81">
-                        <i class="fa-brands fa-codepen"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
+      <!-- Goals -->
+      <section class="case-section">
+        <h3>Goals</h3>
+        <ul>
+          <li>
+            <strong>Discipline:</strong> write tests before production code
+          </li>
+          <li>
+            <strong>Reliability:</strong> ensure changes are validated through
+            automated tests
+          </li>
+          <li>
+            <strong>Maintainability:</strong> keep code modular and testable
+          </li>
+          <li>
+            <strong>Confidence:</strong> refactor safely using test coverage
+          </li>
+        </ul>
+      </section>
 
-        <script src="js/index.js"></script>
+      <!-- Solution -->
+      <section class="case-section">
+        <h3>Solution</h3>
+        <p>
+          Following <em>Test-Driven Development with Python</em> by Harry
+          Percival, the project progressed through a strict
+          <strong>Red → Green → Refactor</strong> cycle. Functional tests were
+          written to describe user behavior, followed by unit tests that drove
+          internal design decisions.
+        </p>
+      </section>
 
-    </body>
+      <!-- Key features -->
+      <section class="case-section">
+        <h3>Key features</h3>
+        <ul>
+          <li>
+            <strong>Functional tests:</strong> browser-level tests using Selenium
+          </li>
+          <li>
+            <strong>Unit tests:</strong> fine-grained testing of application
+            logic
+          </li>
+          <li>
+            <strong>Django integration:</strong> test-driven views, models, and
+            templates
+          </li>
+          <li>
+            <strong>Incremental design:</strong> features evolve only as tests
+            require them
+          </li>
+          <li>
+            <strong>Refactoring:</strong> continuous cleanup guided by passing
+            tests
+          </li>
+        </ul>
+      </section>
+
+      <!-- Methodology -->
+      <section class="case-section">
+        <h3>TDD methodology</h3>
+
+        <h4>Red</h4>
+        <p>
+          Write a failing test that describes the desired behavior from the
+          users perspective.
+        </p>
+
+        <h4>Green</h4>
+        <p>
+          Implement the minimum amount of code needed to make the test pass.
+        </p>
+
+        <h4>Refactor</h4>
+        <p>
+          Improve structure, readability, and design while keeping all tests
+          passing.
+        </p>
+      </section>
+
+      <!-- Data & design -->
+      <section class="case-section">
+        <h3>Design & structure</h3>
+        <ul>
+          <li>
+            <strong>Tests:</strong> functional tests and unit tests drive all
+            features
+          </li>
+          <li>
+            <strong>Application:</strong> Django project built incrementally
+          </li>
+          <li>
+            <strong>Philosophy:</strong> tests describe behavior before
+            implementation
+          </li>
+          <li>
+            <strong>Outcome:</strong> a resilient codebase with high confidence
+            in changes
+          </li>
+        </ul>
+      </section>
+
+      <!-- What I would improve -->
+      <section class="case-section">
+        <h3>What I would improve next</h3>
+        <ul>
+          <li>
+            <strong>Coverage:</strong> expand edge-case and negative testing
+          </li>
+          <li>
+            <strong>CI integration:</strong> automated test runs on every commit
+          </li>
+          <li>
+            <strong>Performance testing:</strong> validate scalability under
+            load
+          </li>
+          <li>
+            <strong>Documentation:</strong> clearer mapping between tests and
+            requirements
+          </li>
+        </ul>
+      </section>
+
+      <!-- Repository -->
+      <section class="case-section">
+        <h3>Repository</h3>
+        <p>View the source code on GitHub:</p>
+        <a
+          class="project__source-link"
+          href="https://github.com/kbrooks81/ITEC4365_FP_krisbrooks"
+          target="_blank"
+          rel="noopener"
+        >
+          Test-Driven Development with Python →
+        </a>
+      </section>
+
+      <!-- Back -->
+      <section class="case-section">
+        <h3>Back to portfolio</h3>
+        <p>Want to see more work? Return to the projects section.</p>
+        <a class="project__source-link" href="../index.html#work"
+          >← Back to Projects</a
+        >
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="mailto:kbrooks8193@gmail.com" class="footer__link"
+        >kbrooks8193@gmail.com</a
+      >
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/kris-brooks/"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/kbrooks81">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/Kbrooks81">
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>

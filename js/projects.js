@@ -27,11 +27,11 @@
     },
     {
       title: "Course Registration System",
-      category: "web",
+      category: "other",
       featured: true,
-      impact: "Web project simulating a course registration workflow with clear UI and flows.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      thumbnail: "assets/projects/CRS/CRS_1.PNG",
+      impact: "Java project simulating a course registration workflow with clear CLI and flows.",
+      tech: ["Java", "CLI"],
+      thumbnail: "assets/projects/CRS/crs-main-thumbnail.PNG",
       repoUrl: "https://github.com/kbrooks81/Course-Registration-System",
       caseStudyUrl: "case-studies/course_registration_system_info.html",
       demoUrl: ""
@@ -43,8 +43,8 @@
       category: "other",
       featured: false,
       impact: "TDD-focused project documenting approach and workflow.",
-      tech: ["TDD", "Testing"],
-      thumbnail: "assets/projects/TDD/TDD_1.PNG",
+      tech: ["Python", "Django", "TDD"],
+      thumbnail: "assets/projects/TDD/tdd-main-thumbnail.png",
       repoUrl: "https://github.com/kbrooks81/ITEC4365_FP_krisbrooks",
       caseStudyUrl: "case-studies/tdd_info.html",
       demoUrl: ""

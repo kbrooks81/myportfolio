@@ -1,99 +1,383 @@
 <!DOCTYPE html>
-<html land="en">
-    <head>
-        <meta charset="'UTF-8">
-        <meta name="'viewpoit" content="width=device-width, initial-scale=1.0">
-        <title>CRS</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRS | Course Registration System (Java CLI)</title>
 
-        <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
 
-        <!--  I can update font here if needed-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/portfolio_item.css" />
 
-        <link rel="stylesheet" href="css/portfolio_item.css">
+    <script
+      src="https://kit.fontawesome.com/1bd2d0e425.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-        <script src="https://kit.fontawesome.com/1bd2d0e425.js" crossorigin="anonymous"></script>
-    </head>
+  <body>
+    <header>
+      <a class="site-logo" href="../index.html#home"
+        >KBrooks<span class="accent">_</span></a
+      >
 
-    <body>
-        <header>
-            <a href="index.html#home">
-                <div class="logo">
-                    <img src="images/devthekrisbrooks1.png" alt="">
-                </div>
-            </a>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-                    <li class="nav__item"><a href="index.html#resume" class="nav__link">My Resume</a></li>
-                </ul>
-            </nav>
-        </header>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="../index.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="../index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="../index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="../index.html#work" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="../index.html#resume" class="nav__link">My Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <!-- Introdcution -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                personal<strong>CRS</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Java</p>
-            <img src="images/CRS_1.PNG" alt="Course Registration System" class="intro__img">
-        </section>
+    <!-- Intro -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Case Study<strong>Course Registration System</strong>
+      </h1>
 
+      <p class="section__subtitle section__subtitle--intro">
+        Java • Command Line • File-Based Data
+      </p>
 
-        <div class="portfolio-item-individual">
-            <p>This project is my final project for introduction to java programming at Middle Georgia State Univeristy. 
-            </p>
-            <img src="images/CRS_info.PNG" alt="CRS info" class="info__img">
-            
-            <p>You can access my code: <a href="https://github.com/kbrooks81/Course-Registration-System/tree/master" class="project__source-link"> here</a></p>
+      <img
+        src="../assets/projects/crs/crs-case-study-thumbnail.png"
+        alt="Course Registration System (CRS) command line preview"
+        class="intro__img"
+      />
+    </section>
+
+    <main class="portfolio-item-individual">
+      <!-- Summary -->
+      <section class="case-section">
+        <h3>Summary</h3>
+        <p class="lead">
+          This Course Registration System (CRS) is a Java command-line
+          application built as a school final project. It simulates a basic
+          registration workflow using a menu-driven interface and file-based
+          inputs for course and student data.
+        </p>
+
+        <div class="callout">
+          <p>
+            <strong>No live demo:</strong> This project runs in the terminal.
+            This case study focuses on the problem, design decisions, and
+            example CLI runs.
+          </p>
         </div>
+      </section>
 
+      <!-- At a glance -->
+      <section class="case-section">
+        <h3>At a glance</h3>
+        <ul class="meta">
+          <li>
+            <strong>Type:</strong> Java CLI application (school assignment)
+          </li>
+          <li><strong>Language:</strong> Java</li>
+          <li>
+            <strong>Data inputs:</strong> <code>CourseList2.txt</code>,
+            <code>StudentList.txt</code>
+          </li>
+          <li>
+            <strong>Source location:</strong> <code>GitHub Repository</code>
+          </li>
+        </ul>
+      </section>
 
+      <!-- Problem -->
+      <section class="case-section">
+        <h3>Problem</h3>
+        <p>
+          The goal was to build a command line system that models course
+          registration with realistic constraints: users should be able to view
+          available courses, register and drop courses, and see their current
+          schedule— while the application prevents invalid actions and handles
+          poor input gracefully.
+        </p>
+      </section>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <a href='mailto:kbrooks8193@gmail.com' class="footer__link">kbrooks8193@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/kris-brooks/">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/kbrooks81">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://replit.com/@kbrooks81">
-                        <i class="fas fa-code"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://codepen.io/Kbrooks81">
-                        <i class="fa-brands fa-codepen"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
+      <!-- Goals -->
+      <section class="case-section">
+        <h3>Goals</h3>
+        <ul>
+          <li>
+            <strong>Clarity:</strong> a clean, menu-driven CLI flow that is easy
+            to follow
+          </li>
+          <li>
+            <strong>Correctness:</strong> consistent rules for registration and
+            dropping
+          </li>
+          <li>
+            <strong>Safety:</strong> strong input validation to avoid crashes
+            and bad state
+          </li>
+          <li>
+            <strong>Maintainability:</strong> keep business logic separated from
+            the CLI prompts
+          </li>
+        </ul>
+      </section>
 
-        <script src="js/index.js"></script>
+      <!-- Solution -->
+      <section class="case-section">
+        <h3>Solution</h3>
+        <p>
+          CRS uses a simple loop-based CLI menu to guide users through common
+          registration actions. Course and student data are loaded from text
+          files, then the program applies validation and registration rules
+          before updating the in-memory state and printing user-friendly results
+          back to the terminal.
+        </p>
+      </section>
 
-    </body>
+      <!-- Key features -->
+      <section class="case-section">
+        <h3>Key features</h3>
+        <ul>
+          <li>
+            <strong>Role-based access:</strong> separate Admin vs Student login
+            flows
+          </li>
+          <li>
+            <strong>Course management (Admin):</strong> add and delete courses
+          </li>
+          <li>
+            <strong>Student management (Admin):</strong> enroll students,
+            unenroll students, drop a course from a student
+          </li>
+          <li>
+            <strong>Registration (Student):</strong> register for a course using
+            course ID + student name verification
+          </li>
+          <li>
+            <strong>Reporting (Admin):</strong> view course details and student
+            list / enrollment reporting
+          </li>
+          <li>
+            <strong>Validation rules:</strong> max 5 courses per student, no
+            duplicate registrations, cannot register if course is full
+          </li>
+        </ul>
+      </section>
+
+      <!-- Roles & Business Rules -->
+      <section class="case-section">
+        <h3>Roles & business rules</h3>
+
+        <h4>Roles</h4>
+        <ul>
+          <li>
+            <strong>Admin:</strong> manages courses and student enrollments, and
+            runs reports
+          </li>
+          <li>
+            <strong>Student:</strong> registers for courses through the CLI menu
+          </li>
+        </ul>
+
+        <h4>Business rules & validations</h4>
+        <ul>
+          <li>
+            <strong>Max course load:</strong> a student can register for up to
+            <strong>5</strong> courses
+          </li>
+          <li>
+            <strong>No duplicates:</strong> a student cannot register for the
+            same course twice
+          </li>
+          <li>
+            <strong>Capacity constraint:</strong> if a course is full,
+            registration is blocked
+          </li>
+        </ul>
+      </section>
+
+      <!-- Data & design -->
+      <section class="case-section">
+        <h3>Data & design</h3>
+        <p>
+          CRS is built as a menu-driven Java CLI application with file-based
+          inputs for course and student records. The CLI layer handles prompts
+          and input parsing, while the registration logic enforces role
+          permissions and business rules (capacity, duplicates, and max course
+          load).
+        </p>
+
+        <ul>
+          <li>
+            <strong>Inputs:</strong> <code>CourseList2.txt</code>,
+            <code>StudentList.txt</code>
+          </li>
+          <li><strong>Source:</strong> Java code under <code>src/crs</code></li>
+          <li>
+            <strong>CLI layer:</strong> menu loop, prompts, input validation,
+            user messaging
+          </li>
+          <li>
+            <strong>Logic layer:</strong> course/student operations,
+            registration rules, reporting output
+          </li>
+        </ul>
+      </section>
+
+      <!-- Screenshots -->
+      <section class="case-section">
+        <h3>Screenshots</h3>
+
+        <div class="gallery">
+          <figure class="shot">
+            <img
+              src="../assets/projects/crs/crs-admin-menu.png"
+              alt="CRS main menu in terminal"
+              class="lightbox-trigger"
+            />
+            <figcaption>
+              Admin menu: course management, student enrollment actions, and
+              reporting options.
+            </figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img
+              src="../assets/projects/crs/crs-admin-add-course.png"
+              alt="CRS course list output in terminal"
+              class="lightbox-trigger"
+            />
+            <figcaption>
+              Course management flow (Admin): add/delete course actions with
+              input validation.
+            </figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img
+              src="../assets/projects/crs/crs-student-registration.png"
+              alt="CRS register/drop validation output in terminal"
+              class="lightbox-trigger"
+            />
+            <figcaption>
+              Registration + validation: student registers by course ID and
+              name; system blocks duplicates, prevents registration when a
+              course is full, and enforces a 5-course maximum.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- What I'd improve -->
+      <section class="case-section">
+        <h3>What I would improve next</h3>
+        <ul>
+          <li>
+            <strong>Persistence:</strong> write updated registrations back to
+            file (or add a small database layer)
+          </li>
+          <li>
+            <strong>Testing:</strong> add JUnit tests for enrollment rules and
+            edge cases
+          </li>
+          <li>
+            <strong>UX polish:</strong> clearer confirmations, better error
+            messaging, and “back” flows
+          </li>
+          <li>
+            <strong>Constraints:</strong> add prerequisites, max credits, or
+            time-conflict checks (if in scope)
+          </li>
+        </ul>
+      </section>
+
+      <!-- Repository -->
+      <section class="case-section">
+        <h3>Repository</h3>
+        <p>View the source code on GitHub:</p>
+        <a
+          class="project__source-link"
+          href="https://github.com/kbrooks81/Course-Registration-System"
+          target="_blank"
+          rel="noopener"
+        >
+          Course Registration System (Java CLI) →
+        </a>
+      </section>
+
+      <!-- Back -->
+      <section class="case-section">
+        <h3>Back to portfolio</h3>
+        <p>Want to see more work? Return to the projects section.</p>
+        <a class="project__source-link" href="../index.html#work"
+          >← Back to Projects</a
+        >
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="mailto:kbrooks8193@gmail.com" class="footer__link"
+        >kbrooks8193@gmail.com</a
+      >
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/kris-brooks/"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/kbrooks81">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/Kbrooks81">
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox__content">
+        <img src="" alt="" id="lightboxImg" />
+      </div>
+    </div>
+
+    <script src="../js/lightbox.js"></script>
+  </body>
 </html>
