@@ -26,9 +26,22 @@
       demoUrl: ""
     },
     {
+      title: "MovieFlix",
+      category: "react-native",
+      featured: true,
+      impact: "React Native app for movie discory and favorite archiving using TMDB api.",
+      tech: ["Expo", "TypeScript", "TMDB API", "Appwrite"],
+      thumbnail: "assets/projects/MovieFlix/movieflix-main-thumbnail.png",
+      repoUrl: "https://github.com/kbrooks81/mobile_movie_app",
+      caseStudyUrl: "case-studies/movieflix_info.html",
+      demoUrl: "https://youtu.be/scH0hEjDopY?si=JWonz36I7YOpabjx"
+    },
+
+    // ===== All Projects =====
+    {
       title: "Course Registration System",
       category: "other",
-      featured: true,
+      featured: false,
       impact: "Java project simulating a course registration workflow with clear CLI and flows.",
       tech: ["Java", "CLI"],
       thumbnail: "assets/projects/CRS/crs-main-thumbnail.png",
@@ -36,8 +49,6 @@
       caseStudyUrl: "case-studies/course_registration_system_info.html",
       demoUrl: ""
     },
-
-    // ===== All Projects =====
     {
       title: "Test Driven Development",
       category: "other",
