@@ -31,7 +31,7 @@
       featured: true,
       impact: "Java project simulating a course registration workflow with clear CLI and flows.",
       tech: ["Java", "CLI"],
-      thumbnail: "assets/projects/CRS/crs-main-thumbnail.PNG",
+      thumbnail: "assets/projects/CRS/crs-main-thumbnail.png",
       repoUrl: "https://github.com/kbrooks81/Course-Registration-System",
       caseStudyUrl: "case-studies/course_registration_system_info.html",
       demoUrl: ""
