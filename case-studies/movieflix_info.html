@@ -1,321 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MovieFlix | Case Study</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MovieFlix | Case Study</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-      crossorigin="anonymous"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="../css/portfolio_item.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet" />
 
-    <script
-      src="https://kit.fontawesome.com/1bd2d0e425.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+  <link rel="stylesheet" href="../css/portfolio_item.css" />
 
-  <body class="case-movieflix">
-    <header>
-      <a class="site-logo" href="../index.html#home"
-        >KBrooks<span class="accent">_</span></a
-      >
+  <script src="https://kit.fontawesome.com/1bd2d0e425.js" crossorigin="anonymous"></script>
+</head>
 
-      <nav class="nav" aria-label="Primary">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="../index.html#home" class="nav__link">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="../index.html#services" class="nav__link">My Services</a>
-          </li>
-          <li class="nav__item">
-            <a href="../index.html#about" class="nav__link">About me</a>
-          </li>
-          <li class="nav__item">
-            <a href="../index.html#work" class="nav__link">Projects</a>
-          </li>
-          <li class="nav__item">
-            <a href="../index.html#resume" class="nav__link">My Resume</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<body class="case-movieflix">
+  <header>
+    <a class="site-logo" href="../index.html#home">KBrooks<span class="accent">_</span></a>
 
-    <!-- Intro -->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Case Study<strong>MovieFlix</strong>
-      </h1>
-
-      <p class="section__subtitle section__subtitle--intro">
-        React Native • Expo • TMDB API • Appwrite
-      </p>
-
-      <img
-        src="../assets/projects/MovieFlix/movieflix-case-study-thumbnail.png"
-        alt="MovieFlix app preview"
-        class="intro__img"
-      />
-    </section>
-
-    <main class="portfolio-item-individual">
-      <!-- Summary -->
-      <section class="case-section">
-        <h3>Summary</h3>
-        <p class="lead">
-          MovieFlix is a React Native movie discovery app built with Expo and
-          file-based routing. It focuses on a clean, mobile-first browsing
-          experience for exploring titles, opening detailed views, and keeping
-          navigation predictable as users move between screens. It utilizes an
-          Appwrite backend for saving movie favorites.
-        </p>
-
-        <div class="callout">
-          <p>
-            <strong>Live demo:</strong> A full walkthrough is available below
-            showcasing the user flow from homescreen → movie details → movie
-            search → movie favorites.
-          </p>
-        </div>
-      </section>
-
-      <!-- At a glance -->
-      <section class="case-section">
-        <h3>At a glance</h3>
-        <ul class="meta">
-          <li><strong>Platform:</strong> React Native (Expo)</li>
-          <li><strong>Routing:</strong> File-based routing via Expo Router</li>
-          <li>
-            <strong>Core skills:</strong> Component-driven UI, typed data
-            models, screen navigation patterns
-          </li>
-          <li>
-            <strong>Key features:</strong> Browse titles, search/discover flow,
-            detail screens, reusable UI components, favorite movies
-          </li>
-          <li>
-            <strong>Deliverable:</strong> Mobile app source code + live demo
-          </li>
-        </ul>
-      </section>
-
-      <!-- Live Demo -->
-      <section class="case-section">
-        <h3>Live demo</h3>
-        <p>
-          This video showcases the user flow of MovieFlix: homescreen/trending
-          movies, movie details, movie searches, and movie favorites
-        </p>
-
-        <div class="video-embed">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/scH0hEjDopY?si=XthksK8MhXLP_z64"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-
-        <div class="links">
-          <a
-            class="project__source-link"
-            href="https://github.com/kbrooks81/mobile_movie_app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            View code →
-          </a>
-        </div>
-      </section>
-
-      <!-- Problem -->
-      <section class="case-section">
-        <h3>Problem</h3>
-        <p>
-          Movie apps can feel cluttered fast: too many screens, inconsistent
-          navigation, and detail pages that do not clearly communicate what
-          matters (rating, overview, metadata). I wanted to practice building a
-          clean discovery flow with predictable routing and a UI structure that
-          scales as screens/features grow.
-        </p>
-      </section>
-
-      <!-- Solution -->
-      <section class="case-section">
-        <h3>Solution</h3>
-        <p>
-          MovieFlix uses Expo + file-based routing to keep navigation
-          straightforward and maintainable. The app is organized around reusable
-          UI components and typed interfaces so screens remain consistent and
-          data is handled safely as it moves through the app.
-        </p>
-      </section>
-
-      <!-- Key Features -->
-      <section class="case-section">
-        <h3>Key features</h3>
-        <ul>
-          <li>
-            <strong>Discovery flow:</strong> browse and explore titles with a
-            mobile-first layout
-          </li>
-          <li>
-            <strong>Detail screens:</strong> focused presentation of a titles
-            key information
-          </li>
-          <li>
-            <strong>Reusable components:</strong> shared UI building blocks for
-            consistent screens
-          </li>
-          <li>
-            <strong>Favorites Database:</strong> users personal favorite movie
-            list stored using an Appwrite backend.
-          </li>
-          <li>
-            <strong>Navigation structure:</strong> file-based routing for a
-            clean, scalable screen map
-          </li>
-        </ul>
-      </section>
-
-      <!-- Screenshots -->
-      <section class="case-section">
-        <h3>Screenshots</h3>
-
-        <div class="gallery">
-          <figure class="shot">
-            <img
-              class="lightbox-trigger"
-              src="../assets/projects/MovieFlix/mobile-movie-app-home.png"
-              alt="MovieFlix - home / discovery screen"
-            />
-            <figcaption>
-              Home screen that showcases Top rated movies as well as a top 5
-              trending movie list for searches across the app.
-            </figcaption>
-          </figure>
-
-          <figure class="shot">
-            <img
-              class="lightbox-trigger"
-              src="../assets/projects/MovieFlix/movie-app-details-screen.png"
-              alt="MovieFlix - details screen"
-            />
-            <figcaption>
-              Details screen which highlights key movie metadata and facts surrounding a
-              particular movies production.
-            </figcaption>
-          </figure>
-
-          <figure class="shot">
-            <img
-              class="lightbox-trigger"
-              src="../assets/projects/MovieFlix/movie-app-saved-movies.png"
-              alt="MovieFlix - saved movie screen"
-            />
-            <figcaption>List view of all user favorited movies.</figcaption>
-          </figure>
-
-          <figure class="shot">
-            <img
-              class="lightbox-trigger"
-              src="../assets/projects/MovieFlix/movie-app-search-screen.png"
-              alt="MovieFlix - search / explore screen"
-            />
-            <figcaption>
-              Search/explore flow to help users find a title quickly and jump
-              into its details.
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <!-- Challenges -->
-      <section class="case-section">
-        <h3>Challenges and tradeoffs</h3>
-        <ul>
-          <li>
-            <strong>Navigation design:</strong> keeping routes predictable as
-            screens expand
-          </li>
-          <li>
-            <strong>UI consistency:</strong> ensuring cards, spacing, and
-            typography remain uniform across screens
-          </li>
-          <li>
-            <strong>Data boundaries:</strong> maintaining clear contracts
-            between services, components, and screens
-          </li>
-          <li>
-            <strong>Mobile UX:</strong> balancing information density with
-            readability and touch targets
-          </li>
-        </ul>
-      </section>
-
-      <!-- close/back -->
-      <section class="case-section">
-        <h3>Back to portfolio</h3>
-        <p>Want to see more work? Return to the projects section.</p>
-        <a class="project__source-link" href="../index.html#work"
-          >← Back to Projects</a
-        >
-      </section>
-    </main>
-
-    <footer class="footer">
-      <a href="mailto:kbrooks8193@gmail.com" class="footer__link"
-        >kbrooks8193@gmail.com</a
-      >
-
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a
-            class="social-list__link"
-            href="https://www.linkedin.com/in/kris-brooks/"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="../index.html#home" class="nav__link">Home</a>
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
+        <li class="nav__item">
+          <a href="../index.html#services" class="nav__link">My Services</a>
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/kbrooks81">
-            <i class="fa-brands fa-github"></i>
-          </a>
+        <li class="nav__item">
+          <a href="../index.html#about" class="nav__link">About me</a>
+        </li>
+        <li class="nav__item">
+          <a href="../index.html#work" class="nav__link">Projects</a>
+        </li>
+        <li class="nav__item">
+          <a href="../index.html#resume" class="nav__link">My Resume</a>
         </li>
       </ul>
-    </footer>
+    </nav>
+  </header>
 
-    <div class="lightbox" id="lightbox" aria-hidden="true">
-      <div class="lightbox__content">
-        <img src="" alt="" id="lightboxImg" />
+  <!-- Intro -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Case Study<strong>MovieFlix</strong>
+    </h1>
+
+    <p class="section__subtitle section__subtitle--intro">
+      React Native • Expo • TMDB API • Appwrite
+    </p>
+
+    <img src="../assets/projects/MovieFlix/movieflix-case-study-thumbnail.png" alt="MovieFlix app preview"
+      class="intro__img" />
+  </section>
+
+  <main class="portfolio-item-individual">
+    <!-- Summary -->
+    <section class="case-section">
+      <h3>Summary</h3>
+      <p class="lead">
+        MovieFlix is a React Native movie discovery app built with Expo and
+        file-based routing. It focuses on a clean, mobile-first browsing
+        experience for exploring titles, opening detailed views, and keeping
+        navigation predictable as users move between screens. It utilizes an
+        Appwrite backend for saving movie favorites.
+      </p>
+
+      <div class="callout">
+        <p>
+          <strong>Live demo:</strong> A full walkthrough is available below
+          showcasing the user flow from homescreen → movie details → movie
+          search → movie favorites.
+        </p>
       </div>
-    </div>
+    </section>
 
-    <script src="../js/lightbox.js"></script>
-  </body>
+    <!-- At a glance -->
+    <section class="case-section">
+      <h3>At a glance</h3>
+      <ul class="meta">
+        <li><strong>Platform:</strong> React Native (Expo)</li>
+        <li><strong>Routing:</strong> File-based routing via Expo Router</li>
+        <li>
+          <strong>Core skills:</strong> Component-driven UI, typed data
+          models, screen navigation patterns
+        </li>
+        <li>
+          <strong>Key features:</strong> Browse titles, search/discover flow,
+          detail screens, reusable UI components, favorite movies
+        </li>
+        <li>
+          <strong>Deliverable:</strong> Mobile app source code + live demo
+        </li>
+      </ul>
+    </section>
+
+    <!-- Live Demo -->
+    <section class="case-section">
+      <h3>Live demo</h3>
+      <p>
+        This video showcases the user flow of MovieFlix: homescreen/trending
+        movies, movie details, movie searches, and movie favorites
+      </p>
+
+      <div class="video-embed">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/scH0hEjDopY?si=XthksK8MhXLP_z64"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+      <div class="links">
+        <a class="project__source-link" href="https://github.com/kbrooks81/mobile_movie_app" target="_blank"
+          rel="noreferrer">
+          View code →
+        </a>
+      </div>
+    </section>
+
+    <!-- Problem -->
+    <section class="case-section">
+      <h3>Problem</h3>
+      <p>
+        Movie apps can feel cluttered fast: too many screens, inconsistent
+        navigation, and detail pages that do not clearly communicate what
+        matters (rating, overview, metadata). I wanted to practice building a
+        clean discovery flow with predictable routing and a UI structure that
+        scales as screens/features grow.
+      </p>
+    </section>
+
+    <!-- Solution -->
+    <section class="case-section">
+      <h3>Solution</h3>
+      <p>
+        MovieFlix uses Expo + file-based routing to keep navigation
+        straightforward and maintainable. The app is organized around reusable
+        UI components and typed interfaces so screens remain consistent and
+        data is handled safely as it moves through the app.
+      </p>
+    </section>
+
+    <!-- Key Features -->
+    <section class="case-section">
+      <h3>Key features</h3>
+      <ul>
+        <li>
+          <strong>Discovery flow:</strong> browse and explore titles with a
+          mobile-first layout
+        </li>
+        <li>
+          <strong>Detail screens:</strong> focused presentation of a titles
+          key information
+        </li>
+        <li>
+          <strong>Reusable components:</strong> shared UI building blocks for
+          consistent screens
+        </li>
+        <li>
+          <strong>Favorites Database:</strong> users personal favorite movie
+          list stored using an Appwrite backend.
+        </li>
+        <li>
+          <strong>Navigation structure:</strong> file-based routing for a
+          clean, scalable screen map
+        </li>
+      </ul>
+    </section>
+
+    <!-- Screenshots -->
+    <section class="case-section">
+      <h3>Screenshots</h3>
+
+      <div class="gallery">
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/MovieFlix/mobile-movie-app-home.png"
+            alt="MovieFlix - home / discovery screen" />
+          <figcaption>
+            Home screen that showcases Top rated movies as well as a top 5
+            trending movie list for searches across the app.
+          </figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/MovieFlix/movie-app-details-screen.png"
+            alt="MovieFlix - details screen" />
+          <figcaption>
+            Details screen which highlights key movie metadata and facts
+            surrounding a particular movies production.
+          </figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/MovieFlix/movie-app-saved-movies.png"
+            alt="MovieFlix - saved movie screen" />
+          <figcaption>List view of all user favorited movies.</figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/MovieFlix/movie-app-search-screen.png"
+            alt="MovieFlix - search / explore screen" />
+          <figcaption>
+            Search/explore flow to help users find a title quickly and jump
+            into its details.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Challenges -->
+    <section class="case-section">
+      <h3>Challenges and tradeoffs</h3>
+      <ul>
+        <li>
+          <strong>Navigation design:</strong> keeping routes predictable as
+          screens expand
+        </li>
+        <li>
+          <strong>UI consistency:</strong> ensuring cards, spacing, and
+          typography remain uniform across screens
+        </li>
+        <li>
+          <strong>Data boundaries:</strong> maintaining clear contracts
+          between services, components, and screens
+        </li>
+        <li>
+          <strong>Mobile UX:</strong> balancing information density with
+          readability and touch targets
+        </li>
+      </ul>
+    </section>
+
+    <!-- close/back -->
+    <section class="case-section">
+      <h3>Back to portfolio</h3>
+      <p>Want to see more work? Return to the projects section.</p>
+      <a class="project__source-link" href="../index.html#work">← Back to Projects</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="mailto:kbrooks8193@gmail.com" class="footer__link">kbrooks8193@gmail.com</a>
+
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/kris-brooks/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/kbrooks81">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox__content">
+      <img src="" alt="" id="lightboxImg" />
+    </div>
+  </div>
+
+  <script src="../js/lightbox.js"></script>
+</body>
+
 </html>

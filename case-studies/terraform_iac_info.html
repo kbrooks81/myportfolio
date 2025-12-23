@@ -1,327 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Terraform Azure IaC Starter | Case Study</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
-    />
-    <link rel="stylesheet" href="../css/portfolio_item.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terraform Azure IaC Starter | Case Study</title>
 
-    <script
-      src="https://kit.fontawesome.com/1bd2d0e425.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header>
-      <a class="site-logo" href="../index.html#home"
-        >KBrooks<span class="accent">_</span></a
-      >
-      <nav aria-label="Primary" class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="../index.html#home">Home</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="../index.html#services">My Services</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="../index.html#about">About me</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="../index.html#work">Projects</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="../index.html#resume">My Resume</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" />
+  <link rel="stylesheet" href="../css/portfolio_item.css" />
 
-    <!-- Intro -->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Case Study
-        <strong>Terraform Azure IaC Starter</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">
-        Terraform • Azure • Infrastructure as Code
+  <script src="https://kit.fontawesome.com/1bd2d0e425.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <a class="site-logo" href="../index.html#home">KBrooks<span class="accent">_</span></a>
+    <nav aria-label="Primary" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="../index.html#home">Home</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="../index.html#services">My Services</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="../index.html#about">About me</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="../index.html#work">Projects</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="../index.html#resume">My Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Intro -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Case Study
+      <strong>Terraform Azure IaC Starter</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">
+      Terraform • Azure • Infrastructure as Code
+    </p>
+    <img src="../assets/projects/iac-project/terraform-azure-case-study-thumbnail.png"
+      alt="Terraform Azure IaC Starter overview thumbnail" class="intro__img" />
+  </section>
+
+  <main class="portfolio-item-individual">
+    <!-- Summary -->
+    <section class="case-section">
+      <h3>Summary</h3>
+      <p class="lead">
+        A portfolio-ready Infrastructure-as-Code starter that provisions
+        baseline Azure resources using a repeatable, version-controlled
+        Terraform workflow (local state for now).
       </p>
-      <img
-        src="../assets/projects/iac-project/terraform-azure-case-study-thumbnail.png"
-        alt="Terraform Azure IaC Starter overview thumbnail"
-        class="intro__img"
-      />
+
+      <div class="callout">
+        <p>
+          <strong>Repo:</strong>
+          <a class="project__source-link" href="https://github.com/kbrooks81/terraform-azure-iac-starter"
+            target="_blank" rel="noreferrer">
+            github.com/kbrooks81/terraform-azure-iac-starter
+          </a>
+        </p>
+      </div>
     </section>
 
-    <main class="portfolio-item-individual">
-      <!-- Summary -->
-      <section class="case-section">
-        <h3>Summary</h3>
-        <p class="lead">
-          A portfolio-ready Infrastructure-as-Code starter that provisions
-          baseline Azure resources using a repeatable, version-controlled
-          Terraform workflow (local state for now).
-        </p>
+    <!-- Overview -->
+    <section class="case-section">
+      <h3>Overview</h3>
+      <p>
+        This project demonstrates core cloud engineering fundamentals:
+        defining infrastructure declaratively, previewing changes safely with
+        <code>terraform plan</code>, and applying them consistently with
+        <code>terraform apply</code>. Instead of “click-ops” in the Azure
+        Portal, everything is captured in code so it can be reviewed, reused,
+        and reproduced.
+      </p>
 
-        <div class="callout">
-          <p>
-            <strong>Repo:</strong>
-            <a
-              class="project__source-link"
-              href="https://github.com/kbrooks81/terraform-azure-iac-starter"
-              target="_blank"
-              rel="noreferrer"
-            >
-              github.com/kbrooks81/terraform-azure-iac-starter
-            </a>
-          </p>
-        </div>
-      </section>
+      <ul class="meta">
+        <li><strong>Category:</strong> Cloud / Infrastructure as Code</li>
+        <li><strong>State:</strong> Local only (current)</li>
+        <li>
+          <strong>Focus:</strong> Structure, variables, outputs, and a clean
+          deploy workflow
+        </li>
+      </ul>
+    </section>
 
-      <!-- Overview -->
-      <section class="case-section">
-        <h3>Overview</h3>
-        <p>
-          This project demonstrates core cloud engineering fundamentals:
-          defining infrastructure declaratively, previewing changes safely with
-          <code>terraform plan</code>, and applying them consistently with
-          <code>terraform apply</code>. Instead of “click-ops” in the Azure
-          Portal, everything is captured in code so it can be reviewed, reused,
-          and reproduced.
-        </p>
+    <!-- Problem -->
+    <section class="case-section">
+      <h3>Problem</h3>
+      <p>
+        Manual provisioning is slow and inconsistent. Small differences
+        between environments create drift, increase troubleshooting, and make
+        it harder to onboard new systems or reproduce a known-good baseline.
+      </p>
+    </section>
 
-        <ul class="meta">
-          <li><strong>Category:</strong> Cloud / Infrastructure as Code</li>
-          <li><strong>State:</strong> Local only (current)</li>
-          <li>
-            <strong>Focus:</strong> Structure, variables, outputs, and a clean
-            deploy workflow
-          </li>
-        </ul>
-      </section>
+    <!-- Solution -->
+    <section class="case-section">
+      <h3>Solution</h3>
+      <p>
+        Terraform captures the desired infrastructure as code. This repo
+        establishes a starter baseline in Azure and demonstrates a safe
+        workflow: initialize, plan, and apply. It is intentionally scoped to
+        be easy to run and review while remaining extensible for future
+        improvements.
+      </p>
 
-
-      <!-- Problem -->
-      <section class="case-section">
-        <h3>Problem</h3>
-        <p>
-          Manual provisioning is slow and inconsistent. Small differences
-          between environments create drift, increase troubleshooting, and make
-          it harder to onboard new systems or reproduce a known-good baseline.
-        </p>
-      </section>
-
-
-      <!-- Solution -->
-      <section class="case-section">
-        <h3>Solution</h3>
-        <p>
-          Terraform captures the desired infrastructure as code. This repo
-          establishes a starter baseline in Azure and demonstrates a safe
-          workflow: initialize, plan, and apply. It is intentionally scoped to
-          be easy to run and review while remaining extensible for future
-          improvements.
-        </p>
-
-        <pre><code>az login
+      <pre><code>az login
 terraform init
 terraform plan
 terraform apply</code></pre>
 
-        <div class="callout">
-          <p>
-            <strong>Why local state?</strong> Keeping state local makes this
-            starter simple to run for reviewers. A future step for team
-            readiness would be moving state to an Azure Storage backend with
-            locking.
-          </p>
-        </div>
-      </section>
+      <div class="callout">
+        <p>
+          <strong>Why local state?</strong> Keeping state local makes this
+          starter simple to run for reviewers. A future step for team
+          readiness would be moving state to an Azure Storage backend with
+          locking.
+        </p>
+      </div>
+    </section>
 
-      <!-- Key Features -->
-      <section class="case-section">
-        <h3>Key Features</h3>
-        <ul>
-          <li>
-            <strong>Repeatable deployments:</strong> the same code can recreate
-            the baseline infrastructure consistently.
-          </li>
-          <li>
-            <strong>Version-controlled infrastructure:</strong> changes are
-            trackable and reviewable via Git.
-          </li>
-          <li>
-            <strong>Configurable:</strong> variables/outputs keep the project
-            reusable as environments evolve.
-          </li>
-          <li>
-            <strong>Designed to grow:</strong> a clean foundation for remote
-            state, modules, and CI/CD later.
-          </li>
-        </ul>
-      </section>
-
-      <!-- Screenshots -->
-      <section class="case-section">
-        <h3>Screenshots</h3>
-
-        <div class="gallery">
-          <figure class="shot">
-            <img
-              class="lightbox-trigger"
-              src="../assets/projects/iac-project/iac-file-tree.png"
-              alt="Project file tree showing Terraform structure"
-              loading="lazy"
-            />
-            <figcaption>
-              Modular Terraform project with environment isolation, reusable
-              modules, and feature-flag driven deployments.
-            </figcaption>
-          </figure>
-
-          <figure class="shot">
-            <img
-              class="lightbox-trigger"
-              src="../assets/projects/iac-project/terraform-plan-output.png"
-              alt="Terraform plan output showing proposed Azure infrastructure changes"
-              loading="lazy"
-            />
-            <figcaption>
-              Predictable infrastructure changes using Terraform plan and
-              outputs for validation before apply.
-            </figcaption>
-          </figure>
-
-          <figure class="shot">
-            <img
-              class="lightbox-trigger"
-              src="../assets/projects/iac-project/resource-group-overview.png"
-              alt="Azure resource group overview created by Terraform"
-              loading="lazy"
-            />
-            <figcaption>
-              Azure environment provisioned entirely via Terraform with
-              standardized naming and tagging.
-            </figcaption>
-          </figure>
-
-          <figure class="shot">
-            <img
-              class="lightbox-trigger"
-              src="../assets/projects/iac-project/diagnostic-settings.png"
-              alt="Azure diagnostic settings configuration screenshot"
-              loading="lazy"
-            />
-            <figcaption>
-              Platform metrics streamed to Log Analytics using Azure Monitor
-              diagnostic settings.
-            </figcaption>
-          </figure>
-
-          <figure class="shot">
-            <img
-              class="lightbox-trigger"
-              src="../assets/projects/iac-project/iac-transactions-metrics.png"
-              alt="Azure metrics chart related to infrastructure transactions"
-              loading="lazy"
-            />
-            <figcaption>
-              Validation of emitted storage account metrics without requiring
-              application traffic.
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <!-- What I Learned -->
-      <section class="case-section">
-        <h3>What I Learned</h3>
-        <ul>
-          <li>
-            How to structure Terraform projects to be readable and
-            reviewer-friendly.
-          </li>
-          <li>
-            Why <code>terraform plan</code> is a critical safety step before
-            deploying changes.
-          </li>
-          <li>
-            How variables/outputs improve reusability and long-term
-            maintainability.
-          </li>
-          <li>
-            When local state is appropriate—and why teams typically move to
-            remote state.
-          </li>
-        </ul>
-      </section>
-
-      <!-- Whats Next -->
-      <section class="case-section">
-        <h3>What’s Next</h3>
-        <ul>
-          <li>Remote state in Azure Storage (with locking)</li>
-          <li>CI/CD pipeline (plan on PR, controlled apply on merge)</li>
-          <li>Modularization for repeatable patterns</li>
-          <li>Tagging + naming standards for enterprise readiness</li>
-        </ul>
-      </section>
-
-      <!-- close/back -->
-      <section class="case-section">
-        <h3>Back to portfolio</h3>
-        <p>Want to see more work? Return to the projects section.</p>
-        <a class="project__source-link" href="../index.html#work"
-          >← Back to Projects</a
-        >
-      </section>
-    </main>
-
-    <footer class="footer">
-      <a class="footer__link" href="mailto:kbrooks8193@gmail.com"
-        >kbrooks8193@gmail.com</a
-      >
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a
-            class="social-list__link"
-            href="https://www.linkedin.com/in/kris-brooks/"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
+    <!-- Key Features -->
+    <section class="case-section">
+      <h3>Key Features</h3>
+      <ul>
+        <li>
+          <strong>Repeatable deployments:</strong> the same code can recreate
+          the baseline infrastructure consistently.
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
+        <li>
+          <strong>Version-controlled infrastructure:</strong> changes are
+          trackable and reviewable via Git.
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/kbrooks81">
-            <i class="fa-brands fa-github"></i>
-          </a>
+        <li>
+          <strong>Configurable:</strong> variables/outputs keep the project
+          reusable as environments evolve.
+        </li>
+        <li>
+          <strong>Designed to grow:</strong> a clean foundation for remote
+          state, modules, and CI/CD later.
         </li>
       </ul>
-    </footer>
+    </section>
 
-    <div aria-hidden="true" class="lightbox" id="lightbox">
-      <div class="lightbox__content">
-        <img alt="" id="lightboxImg" src="" />
+    <!-- Screenshots -->
+    <section class="case-section">
+      <h3>Screenshots</h3>
+
+      <div class="gallery">
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/iac-project/iac-file-tree.png"
+            alt="Project file tree showing Terraform structure" loading="lazy" />
+          <figcaption>
+            Modular Terraform project with environment isolation, reusable
+            modules, and feature-flag driven deployments.
+          </figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/iac-project/terraform-plan-output.png"
+            alt="Terraform plan output showing proposed Azure infrastructure changes" loading="lazy" />
+          <figcaption>
+            Predictable infrastructure changes using Terraform plan and
+            outputs for validation before apply.
+          </figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/iac-project/resource-group-overview.png"
+            alt="Azure resource group overview created by Terraform" loading="lazy" />
+          <figcaption>
+            Azure environment provisioned entirely via Terraform with
+            standardized naming and tagging.
+          </figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/iac-project/diagnostic-settings.png"
+            alt="Azure diagnostic settings configuration screenshot" loading="lazy" />
+          <figcaption>
+            Platform metrics streamed to Log Analytics using Azure Monitor
+            diagnostic settings.
+          </figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/iac-project/iac-transactions-metrics.png"
+            alt="Azure metrics chart related to infrastructure transactions" loading="lazy" />
+          <figcaption>
+            Validation of emitted storage account metrics without requiring
+            application traffic.
+          </figcaption>
+        </figure>
       </div>
-    </div>
+    </section>
 
-    <script src="../js/lightbox.js"></script>
-  </body>
+    <!-- What I Learned -->
+    <section class="case-section">
+      <h3>What I Learned</h3>
+      <ul>
+        <li>
+          How to structure Terraform projects to be readable and
+          reviewer-friendly.
+        </li>
+        <li>
+          Why <code>terraform plan</code> is a critical safety step before
+          deploying changes.
+        </li>
+        <li>
+          How variables/outputs improve reusability and long-term
+          maintainability.
+        </li>
+        <li>
+          When local state is appropriate—and why teams typically move to
+          remote state.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Whats Next -->
+    <section class="case-section">
+      <h3>What’s Next</h3>
+      <ul>
+        <li>Remote state in Azure Storage (with locking)</li>
+        <li>CI/CD pipeline (plan on PR, controlled apply on merge)</li>
+        <li>Modularization for repeatable patterns</li>
+        <li>Tagging + naming standards for enterprise readiness</li>
+      </ul>
+    </section>
+
+    <!-- close/back -->
+    <section class="case-section">
+      <h3>Back to portfolio</h3>
+      <p>Want to see more work? Return to the projects section.</p>
+      <a class="project__source-link" href="../index.html#work">← Back to Projects</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer__link" href="mailto:kbrooks8193@gmail.com">kbrooks8193@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/kris-brooks/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/TheKrisBrooks">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/kbrooks81">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <div aria-hidden="true" class="lightbox" id="lightbox">
+    <div class="lightbox__content">
+      <img alt="" id="lightboxImg" src="" />
+    </div>
+  </div>
+
+  <script src="../js/lightbox.js"></script>
+</body>
+
 </html>
