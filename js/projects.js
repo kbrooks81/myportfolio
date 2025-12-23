@@ -4,15 +4,15 @@
   const PROJECTS = [
     // ===== Featured =====
     {
-      title: "MealsToGo",
+      title: "MovieFlix",
       category: "react-native",
       featured: true,
-      impact: "React Native app for location-based restaurant discovery using search + maps.",
-      tech: ["Expo", "TypeScript", "Context API", "Maps", "Places"],
-      thumbnail: "assets/projects/MealsToGo/mealstogo-main-thumbnail.png",
-      repoUrl: "https://github.com/kbrooks81/MealsToGo",
-      caseStudyUrl: "case-studies/mealstogo_info.html",
-      demoUrl: "https://youtu.be/1S6dHtgNBdI?si=74WgtBta-7ICdLft"
+      impact: "React Native app for movie discory and favorite archiving using TMDB api.",
+      tech: ["Expo", "TypeScript", "TMDB API", "Appwrite"],
+      thumbnail: "assets/projects/MovieFlix/movieflix-main-thumbnail.png",
+      repoUrl: "https://github.com/kbrooks81/mobile_movie_app",
+      caseStudyUrl: "case-studies/movieflix_info.html",
+      demoUrl: "https://youtu.be/scH0hEjDopY?si=JWonz36I7YOpabjx"
     },
     {
       title: "e2875 Dashboard",
@@ -26,15 +26,15 @@
       demoUrl: ""
     },
     {
-      title: "MovieFlix",
-      category: "react-native",
+      title: "Terraform Azure IaC Starter",
+      category: "iac",
       featured: true,
-      impact: "React Native app for movie discory and favorite archiving using TMDB api.",
-      tech: ["Expo", "TypeScript", "TMDB API", "Appwrite"],
-      thumbnail: "assets/projects/MovieFlix/movieflix-main-thumbnail.png",
-      repoUrl: "https://github.com/kbrooks81/mobile_movie_app",
-      caseStudyUrl: "case-studies/movieflix_info.html",
-      demoUrl: "https://youtu.be/scH0hEjDopY?si=JWonz36I7YOpabjx"
+      impact: "Terraform starter that provisions baseline Azure resources with a repeatable IaC workflow.",
+      tech: ["Terraform", "Azure", "IaC", "CLI"],
+      thumbnail: "assets/projects/iac-project/terraform-azure-main-thumbnail.png",
+      repoUrl: "https://github.com/kbrooks81/terraform-azure-iac-starter",
+      caseStudyUrl: "case-studies/terraform_iac_info.html",
+      demoUrl: ""
     },
 
     // ===== All Projects =====
@@ -48,6 +48,17 @@
       repoUrl: "https://github.com/kbrooks81/Course-Registration-System",
       caseStudyUrl: "case-studies/course_registration_system_info.html",
       demoUrl: ""
+    },
+    {
+      title: "MealsToGo",
+      category: "react-native",
+      featured: false,
+      impact: "React Native app for location-based restaurant discovery using search + maps.",
+      tech: ["Expo", "TypeScript", "Context API", "Maps", "Places"],
+      thumbnail: "assets/projects/MealsToGo/mealstogo-main-thumbnail.png",
+      repoUrl: "https://github.com/kbrooks81/MealsToGo",
+      caseStudyUrl: "case-studies/mealstogo_info.html",
+      demoUrl: "https://youtu.be/1S6dHtgNBdI?si=74WgtBta-7ICdLft"
     },
     {
       title: "Test Driven Development",
