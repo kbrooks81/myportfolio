@@ -7,7 +7,7 @@
       title: "MovieFlix",
       category: "react-native",
       featured: true,
-      impact: "React Native app for movie discory and favorite archiving using TMDB api.",
+      impact: "React Native app for movie discovery and favorite archiving using TMDB API.",
       tech: ["Expo", "TypeScript", "TMDB API", "Appwrite"],
       thumbnail: "assets/projects/MovieFlix/movieflix-main-thumbnail.png",
       repoUrl: "https://github.com/kbrooks81/mobile_movie_app",
