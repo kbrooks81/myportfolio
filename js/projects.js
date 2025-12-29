@@ -54,11 +54,11 @@
       category: "react-native",
       featured: false,
       impact: "React Native app for location-based restaurant discovery using search + maps.",
-      tech: ["Expo", "TypeScript", "Context API", "Maps", "Places"],
+      tech: ["Expo", "TypeScript", "Context API", "Maps", "Places", "Firebase"],
       thumbnail: "assets/projects/MealsToGo/mealstogo-main-thumbnail.png",
       repoUrl: "https://github.com/kbrooks81/MealsToGo",
       caseStudyUrl: "case-studies/mealstogo_info.html",
-      demoUrl: "https://youtu.be/1S6dHtgNBdI?si=74WgtBta-7ICdLft"
+      demoUrl: "https://youtu.be/HU5BkgSLbCk?si=xfGECMzfBPHR-BFV"
     },
     {
       title: "Test Driven Development",

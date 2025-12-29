@@ -403,12 +403,3 @@ header {
   width: 100%;
   height: 100%;
 }
-
-/* =========================
-   MealToGo gallery: avoid harsh cropping on phone screenshots
-========================= */
-.case-mealstogo .shot img {
-  height: 320px;
-  object-fit: contain;
-  background: rgba(255, 255, 255, 0.06);
-}
