@@ -4,15 +4,15 @@
   const PROJECTS = [
     // ===== Featured =====
     {
-      title: "MovieFlix",
+      title: "MealsToGo",
       category: "react-native",
       featured: true,
-      impact: "React Native app for movie discovery and favorite archiving using TMDB API.",
-      tech: ["Expo", "TypeScript", "TMDB API", "Appwrite"],
-      thumbnail: "assets/projects/MovieFlix/movieflix-main-thumbnail.png",
-      repoUrl: "https://github.com/kbrooks81/mobile_movie_app",
-      caseStudyUrl: "case-studies/movieflix_info.html",
-      demoUrl: "https://youtu.be/scH0hEjDopY?si=JWonz36I7YOpabjx"
+      impact: "React Native app for location-based restaurant discovery using search + maps.",
+      tech: ["Expo", "TypeScript", "Context API", "Maps", "Places", "Firebase"],
+      thumbnail: "assets/projects/MealsToGo/mealstogo-main-thumbnail.png",
+      repoUrl: "https://github.com/kbrooks81/MealsToGo",
+      caseStudyUrl: "case-studies/mealstogo_info.html",
+      demoUrl: "https://youtu.be/HU5BkgSLbCk?si=xfGECMzfBPHR-BFV"
     },
     {
       title: "e2875 Dashboard",
@@ -39,6 +39,17 @@
 
     // ===== All Projects =====
     {
+      title: "MovieFlix",
+      category: "react-native",
+      featured: false,
+      impact: "React Native app for movie discovery and favorite archiving using TMDB API.",
+      tech: ["Expo", "TypeScript", "TMDB API", "Appwrite"],
+      thumbnail: "assets/projects/MovieFlix/movieflix-main-thumbnail.png",
+      repoUrl: "https://github.com/kbrooks81/mobile_movie_app",
+      caseStudyUrl: "case-studies/movieflix_info.html",
+      demoUrl: "https://youtu.be/scH0hEjDopY?si=JWonz36I7YOpabjx"
+    },
+    {
       title: "Course Registration System",
       category: "other",
       featured: false,
@@ -48,17 +59,6 @@
       repoUrl: "https://github.com/kbrooks81/Course-Registration-System",
       caseStudyUrl: "case-studies/course_registration_system_info.html",
       demoUrl: ""
-    },
-    {
-      title: "MealsToGo",
-      category: "react-native",
-      featured: false,
-      impact: "React Native app for location-based restaurant discovery using search + maps.",
-      tech: ["Expo", "TypeScript", "Context API", "Maps", "Places", "Firebase"],
-      thumbnail: "assets/projects/MealsToGo/mealstogo-main-thumbnail.png",
-      repoUrl: "https://github.com/kbrooks81/MealsToGo",
-      caseStudyUrl: "case-studies/mealstogo_info.html",
-      demoUrl: "https://youtu.be/HU5BkgSLbCk?si=xfGECMzfBPHR-BFV"
     },
     {
       title: "Test Driven Development",
