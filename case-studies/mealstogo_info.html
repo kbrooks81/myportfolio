@@ -71,7 +71,7 @@
       <div class="callout">
         <p>
           <strong>Live demo:</strong> A full walkthrough is available on
-          YouTube showing the user flow from city search → list → map →
+          YouTube showing the user flow from login screen -> city search → list → map →
           selection.
         </p>
       </div>
@@ -101,16 +101,22 @@
     <section class="case-section">
       <h3>Live demo</h3>
       <p>
-        This video shows the full user journey: search a city, browse
+        This video shows the full user journey: login, search a city, browse
         restaurants, switch to the map, select a location, and verify the
         selection resets correctly when changing cities.
       </p>
 
       <div class="video-embed">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/1S6dHtgNBdI?si=xhdOtudLHh1y2AR2"
-          title="YouTube video player" frameborder="0"
+        <iframe 
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/HU5BkgSLbCk?si=RfRQ3wgGqMoNQ0hv"
+          title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
       </div>
 
       <div class="links">
@@ -146,6 +152,10 @@
     <section class="case-section">
       <h3>Key features</h3>
       <ul>
+        <li>
+          <strong>User Login:</strong> simple authentication flow with email and
+          password with Firebase.
+        </li>
         <li>
           <strong>City search:</strong> Google Places autocomplete for fast,
           accurate location selection
@@ -195,6 +205,23 @@
             resets correctly on city changes.
           </figcaption>
         </figure>
+
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/MealsToGo/mealstogo-login-view.png"
+            alt="MealsToGo - login view" />
+          <figcaption>
+            Initial app login screen with email and password authentication via firebase.
+          </figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img class="lightbox-trigger" src="../assets/projects/MealsToGo/mealstogo-password-reset-view.png"
+            alt="MealsToGo - password reset view" />
+          <figcaption>
+            User password reset screen via firebase.
+          </figcaption>
+        </figure>
+
       </div>
     </section>
 
